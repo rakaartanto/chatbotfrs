@@ -1,0 +1,1760 @@
+{
+    "intents": [
+        {
+            "tag": "rumus",
+            "patterns": [
+                "kalkulasi",
+                "berapa",
+                "hitung"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "clearscreen",
+            "patterns": [
+                "clear screen",
+                "cls",
+                "clearscreen",
+                "hapus"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "mahasiswa",
+            "patterns": [
+                "mahasiswa",
+                "mhs",
+                "siswa",
+                "mhs nrp",
+                "mahasiswa nrp",
+                "nrp",
+                "siswa nrp"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "halo",
+                "helo",
+                "Hello"
+            ],
+            "responses": [
+                "Halo selamat datang di FRS Chatbot 101, silahkan isi pertanyaaan anda terkait Formulir Rencana Studi"
+
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "selamat",
+            "patterns": [
+                "Selamat pagi",
+                "Selamat malam",
+                "Halo",
+                "Selamat siang",
+                "Assalamualaikum",
+                "apa kabar",
+                "Salam"
+            ],
+            "responses": [
+                "Salam jumpa",
+                "Senang berjumpa lagi",
+                "Ada yang bisa dibantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sampaijumpa",
+            "patterns": [
+                "Penutup",
+                "Terima kasih",
+                "Sampai jumpa",
+                "Mohon pamit",
+                "Pamit dulu",
+                "Selamat tinggal"
+            ],
+            "responses": [
+                "Sampai juga lagi",
+                "Sampai ketemu lagi",
+                "Sampai ketemu lagi di lain kesempatan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Terima kasih",
+                "Matur suwun",
+                "Matur nuwun",
+                "Suwun nggih"
+            ],
+            "responses": [
+                "Sami-sami nggih",
+                "Semoga bermanfaat",
+                "Terima kasih kembali"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Mohon maaf kami tidak bisa menjawab pertanyaan anda, silahkan tanyakan pertanyaan yang lebih spesifik lagi atau hubungi Departemen SI untuk pertanyaan lebih lanjut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "Bagaimana kamu bisa membantuku?",
+                "Apa yang bisa kamu lakukan?",
+                "Bantuan apa yang kamu berikan?",
+                "Bagaimana kamu bisa membantu?",
+                "Siapa anda"
+            ],
+            "responses": [
+                "Saya adalah chatbot FRS 101 yang bisa menjawab pertanyaan anda terkait Formulir Rencana Studi seperti konversi mata kuliah dan alur pengisian FRS"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "datetime",
+                "date",
+                "time",
+                "day",
+                "hari",
+                "tanggal",
+                "bulan",
+                "month",
+                "hari tanggal",
+                "waktu"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "peraturan",
+            "patterns": [
+                "halo",
+                "tata cara",
+                "peraturan",
+                "cara menggunakan",
+                "step",
+                "how"
+            ],
+            "responses": [
+                "Untuk menggunakan chatbot ini, tulis pertanyaan anda terkait dengan Formulir Rencana Studi pada kolom pertanyaan. Lalu setelah user mengisi, klik tombol submit. Chatbot akan membaca pertanyaan ada dan menampilkan jawaban pertanyaan. Jika gagal, user diminta untuk menulis pertanyaan kembali dengan lebih detail"
+            ]
+        },
+        {
+            "tag": "1",
+            "patterns": [
+                "itu frs apa",
+                "rencana studi apa itu formulir",
+                "frs apa",
+                "arti frs",
+                "formulir rencana studi",
+                "frs",
+                "maksud frs apa",
+                "rencana maksud studi apa formulir",
+                "rencana konteks maksud studi frs apa didik formulir",
+                "rencana studi konsep formulir jelas"
+            ],
+            "responses": [
+                "Formulir Rencana Studi (FRS) adalah istilah yang ditujukan untuk proses pendaftaran mata kuliah yang harus dilakukan oleh mahasiswa. Dalam proses Formulir Rencana Studi ini mahasiswa harus memilih mata kuliah yang akan diambil, beserta kelas dan jadwalnya berdasarkan daftar mata kuliah dengan jadwal dan kelas yang dibuka."
+            ]
+        },
+        {
+            "tag": "2",
+            "patterns": [
+                "tertib tata frs",
+                "frs tertib bagaimana tata isi",
+                "rencana studi tertib bagaimana formulir tata isi",
+                "rencana mulai studi kapan formulir",
+                "beda tahun ada akademik frs waktu semester isi",
+                "buka rencana studi kapan biasa periode formulir isi"
+            ],
+            "responses": [
+                "Berikut adalah tata tertib yang harus dipenuhi oleh mahasiswa untuk mengisi FRS:\n1. FRS Online dimulai pukul 08.00 WIB untuk mahasiswa 2021, 2022, dan 2023, dan pukul 07.00 WIB bagi mahasiswa 2020++\n2. Pada pukul 08.00 - 12.59 WIB, mahasiswa 2021, 2022, dan 2023 hanya diperbolehkan mengambil mata kuliah wajib maupun mata kuliah mengulang\n3. Pengambilan mata kuliah semester atas bagi mahasiswa angkatan 2021, 2022, dan 2023 dimulai pukul 13.00 WIB."
+            ]
+        },
+        {
+            "tag": "3",
+            "patterns": [
+                "sanksi frs",
+                "langgar akan mahasiswa sudah apa tertib apabila jadi tata",
+                "langgar dsi mahasiswa manajemen institusi akademik tertib bagaimana tata tangan",
+                "ingin adanya mahasiswa mengetahui dan dilakukan apa  pelanggaran melaporkannya oleh dapat",
+                "langgar mahasiswa tertib laku sistem mereka bagaimana informasi tata konsekuensi",
+                "langgar mahasiswa institusi atur orang akademik tertib ambil biasa universitas apa didik sanksi tindak tata"
+            ],
+            "responses": [
+                "Berikut adalah Sanksi yang diterima mahasiswa apabila mahasiswa melanggar peraturan:\n1. Apabila terdapat mahasiswa yang melanggar, maka akan ditindaklanjuti oleh manajemen DSI, dengan kemungkinan mata kuliah tersebut di DROP PAKSA\n2. Bagi yang mengetahui adanya pelanggaran dan ingin melaporkan, dapat menghubungi CP SWF dengan menyertakan bukti Screenshot"
+            ]
+        },
+        {
+            "tag": "4",
+            "patterns": [
+                "nilai rentang",
+                "nilai mahasiswa rentang bagaimana",
+                "nilai akademik skala sistem its bagaimana terap umum",
+                "nilai guna mahasiswa akademik skala apa prestasi biasa its ukur",
+                "dasar nilai terjemah huruf deskripsi bagaimana jadi angka umum",
+                "nilai arti sebut apa sistem"
+            ],
+            "responses": [
+                "Berikut adalah Rentang Penilaian Mahasiswa untuk Setiap Mata Kuliah:\nNilai angka (86-100) : Nilai A / Istimewa\nNilai angka (76-85) : Nilai AB / Baik Sekali\nNilai angka (66-75) : Nilai B / Baik\nNilai angka (61-65) : Nilai BC / Cukup Baik\nNilai angka (56-60) : Nilai C / Cukup\nNilai angka (41-55) : Nilai D / Kurang\nNilai angka (0-40) : Nilai E / Kurang Sekali"
+            ]
+        },
+        {
+            "tag": "5",
+            "patterns": [
+                "arti periode",
+                "maksud periode apa",
+                "rencana maksud studi apa rubah its periode formulir",
+                "mulai kapan masa frs periode kuliah isi",
+                "rencana 1 minggu studi lama apa hingga 3 izin periode formulir ubah",
+                "atur drop its bagaimana periode"
+            ],
+            "responses": [
+                "Periode adalah rentang waktu yang dibolehkan untuk merubah FRS. Di ITS terdapat rentang waktu untuk perubahan FRS dimana: \n1. Pengisan : 1 minggu sebelum masa perkuliahan dimulai \n2. Perubahan : minggu 1 hingga minggu 3. mahasiswa diperbolehkan untuk drop mata kuliah ataupun menambah mata kuliah\n3. Drop : minggu 3 hingga minggu 10. mahasiswa diperbolehkan untuk drop mata kuliah."
+            ]
+        },
+        {
+            "tag": "6",
+            "patterns": [
+                "cara rencana studi mengisi formulir",
+                "isi frs tahap",
+                "ingin bisa mata kuliah frs bagaimana cara isi dapat",
+                "tata isi frs cara",
+                "langkah pertama mahasiswa untuk dilakukan frs apa  mengisi saja",
+                "mata kuliah frs tambah bagaimana cara",
+                "buka website mulai mahasiswa frs proses bagaimana cara tepat isi",
+                "harus ingin mata langkahlangkah mahasiswa dalam jika ke diikuti  apa menambahkan frs mereka kuliah oleh"
+            ],
+            "responses": [
+                "Untuk mengisi FRS ada beberapa tahap yang harus dilakukan oleh mahasiswa:\n1. Buka siakad lalu klik Formulir Rencana Studi\n2. Pada laman FRS, terdapat pilihan Kelas Departemen, Kelas Departemen Lain, Kelas SKPB, dan Kelas Pengayaan\n3. Untuk memilih mata kuliah yang ada di Sistem Informasi, pilih bagian Kelas Departemen lalu pilih mata kuliah yang ingin diambil oleh mahasiswa\n4. Setelah dipilih, klik tombol ambil dan mahasiswa harus mengisi kode Qacha untuk diverifikasi\n5. Setelah mengambil mata kuliah, mata secara otomatis mata kuliah tersebut telah ditambahkan ke FRS mahasiswa\n6. Lakukan tahap secara berulang untuk mengambil mata kuliah lainnya"
+            ]
+        },
+        {
+            "tag": "7",
+            "patterns": [
+                "sks jumlah",
+                "berapa sks mahasiswa ambil dapat jumlah",
+                "kredit berapa akademik maksimum jumlah izin its semester bijak",
+                "berapa sks mahasiswa orang ambil izin batas satu semester jumlah",
+                "berapa sks mahasiswa ambil banyak mereka bagaimana satu semester tentu",
+                "kredit mahasiswa maksimum ambil satu semester dapat jumlah"
+            ],
+            "responses": [
+                "Jumlah SKS yang dapat diambil oleh mahasiswa ditentukan berdasarkan IPS yang didapatkan oleh mahasiswa di semester sebelumnya. Berikut adalah range nilai IPS dan jumlah SKS yang dapat diambil oleh mahasiswa:\n1. IPS < 2,50 maksimal mengambil 18 SKS\n2. 2,50 < IPS < 3,00 maksimal mengambil 20 SKS\n3. 3,00 < IPS < 3,50 maksimal mengambil 22 SKS\n4. 3,50 < IPS < 4,00 maksimal mengambil 24 SKS"
+            ]
+        },
+        {
+            "tag": "8",
+            "patterns": [
+                "mata berakhir setelah pengisian drop kuliah",
+                "cara di mata berakhir setelah pengisian frs drop waktu bagaimana kuliah",
+                "batal pengisan frs bagaimana adu tahap",
+                "rencana mata dari studi mahasiswa drop bagaimana kuliah formulir dapat",
+                "mata mahasiswa frs apa drop laku selesai waktu mereka batas kuliah isi dapat",
+                "mata drop laku periode kuliah bagaimana prosedur akhir isi ubah"
+            ],
+            "responses": [
+                "Setelah mahasiswa menentukan mata kuliah yang ingin di drop, maka mahasiswa perlu menghubungi dosen wali agar mata kuliah dapat di drop oleh dosen wali. Mahasiswa dapat melakukan drop mata kuliah hingga minggu ke 7"
+            ]
+        },
+        {
+            "tag": "9",
+            "patterns": [
+                "mata berakhir setelah pengisian tambah kuliah",
+                "menambah cara di rencana mata studi berakhir setelah pengisian waktu bagaimana kuliah formulir",
+                "ingin berakhir pengisian apa menambahkan waktu mata mahasiswa jika setelah mereka rencana dapat studi dilakukan  formulir kuliah oleh",
+                "ingin pengisian frs menambahkan waktu harus mata apakah ada mahasiswa jika setelah selesai mereka  diperhatikan tertentu batas kuliah oleh",
+                "ingin rencana mata studi mahasiswa kelas selesai tambah waktu bagaimana kuliah formulir isi",
+                "harus ingin rencana mata studi mahasiswa apa laku tambah mereka kuliah formulir tentu"
+            ],
+            "responses": [
+                "Untuk menambah mata kuliah dimana waktu Pengisian FRS sudah selesai, mahasiswa harus menentukan mata kuliah dan kelas yang ingin diambil. Lalu mahasiswa dapat menghubungi Sekretaris Departemen untuk ditambahkan secara manual ataupun dapat menghubungi Dosen Wali untuk diverifikasi. Mahasiswa dapat melakukan penambahan mata kuliah hingga minggu ke 3"
+            ]
+        },
+        {
+            "tag": "10",
+            "patterns": [
+                "satu",
+                "pertama",
+                "1",
+                "satu semester",
+                "semester pertama",
+                "satu semester",
+                "mata 1 kuliah satu semester",
+                "di mata 1 apa wajib kuliah satu saja semester",
+                "harus pertama mata mahasiswa apa ambil kuliah semester",
+                "pertama mata wajib kuliah bagaimana daftar semester",
+                "harus pertama mata mahasiswa apa ambil wajib kuliah semester",
+                "di mata 1 apa wajib kuliah semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 1:\n1. Organisasi dan Fungsional Bisnis\n2. Pengantar Teknologi Elektro dan Informatika\n3. Matematika\n4. Logika dan Struktur Diskrit\n5. Pengantar Ekonomi dan Bisnis\n6. Design Thinking\n7. Infrasturktur TI"
+            ]
+        },
+        {
+            "tag": "11",
+            "patterns": [
+                "dua",
+                "kedua",
+                "2",
+                "2 semester",
+                "semester kedua",
+                "dua mata 2 kuliah semester",
+                "di dua mata apa 2 wajib kuliah saja semester",
+                "harus pada mata kedua diambil apa  kuliah saja semester",
+                "mata apa 2 ambil wajib kuliah daftar semester lengkap",
+                "harus pada mata kedua diambil susunan  bagaimana kuliah semester",
+                "harus pada dua mata apakah ada tertentu  kuliah persyaratan dipenuhi semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 2:\n1. Manajemen Proses Bisnis \n2. Sistem Basis Data \n3. Probabilistik dan Statistika untuk TI \n4. Rekayasa Kebutuhan Perangkat Lunak \n5. Pemograman Dasar"
+            ]
+        },
+        {
+            "tag": "12",
+            "patterns": [
+                "tiga",
+                "ketiga",
+                "2",
+                "semester 3",
+                "semester tiga",
+                "tiga mata 3 kuliah semester",
+                "mata apa 3 wajib kuliah semester",
+                "tiga mata apa  ambil kuliah semester",
+                "di tiga mata diambil apa  wajib kuliah daftar semester lengkap",
+                "harus pada mata diambil susunan  ketiga bagaimana kuliah semester",
+                "harus pada tiga mata apakah ada tertentu  kuliah persyaratan dipenuhi semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 3:\n1. Sistem Enterprise \n2. Administrasi Basis Data \n3. Riset Operasi \n4. Analitika Data dan Diagnostik \n5. Manajemen Proyek Tangkas \n6. Algoritma & Struktur Data"
+            ]
+        },
+        {
+            "tag": "13",
+            "patterns": [
+                "empat",
+                "4",
+                "semester 4",
+                "semester empat",
+                "semester 4 mata kuliah",
+                "di mata apa wajib kuliah saja 4 semester",
+                "di mata keempat apa  menjadi wajib kuliah saja semester",
+                "harus di mata diambil apa  kuliah daftar semester 4 lengkap",
+                "harus mata ambil bagaimana kuliah semester susun empat",
+                "harus di mata apakah ada tertentu  dengan wajib kuliah persyaratan dipenuhi 4 semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 4:\n1. Desain Pengalaman Pengguna \n2. Data Lakehouse \n3. Pemograman Web \n4. Etika TI \n5. Predictive Modelling & Analystic \n6. Manajemen Risiko TI \n7. Desain dan Manajemen Jaringan Komputer"
+            ]
+        },
+        {
+            "tag": "14",
+            "patterns": [
+                "lima",
+                "5",
+                "5 semester",
+                "semester lima",
+                "5 semester mata kuliah",
+                "5 di mata apa wajib kuliah saja semester",
+                "di mata apa  menjadi kelima wajib kuliah saja semester",
+                "harus 5 di mata diambil apa  kuliah daftar semester lengkap",
+                "harus pada mata diambil susunan  bagaimana kuliah semester kelima",
+                "harus 5 mata ada penuh wajib kuliah semester syarat tentu"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 5:\n1. Monitoring dan Evaluasi Organisasi TI \n2. Perancangan & Pembangunan Perangkat Lunak \n3. Teknologi Berkembang \n4. Manajemen Layanan TI \n5. Perencanaan Strategis SI/TI \n6. Proteksi Aset Informasi"
+            ]
+        },
+        {
+            "tag": "15",
+            "patterns": [
+                "enam",
+                "6",
+                "semester 6",
+                "enam semester",
+                "semester 6 mata kuliah",
+                "di 6 mata apa wajib kuliah saja semester",
+                "di mata apa  menjadi wajib kuliah saja keenam semester",
+                "harus di 6 mata diambil apa  kuliah daftar semester lengkap",
+                "harus pada mata diambil susunan  bagaimana kuliah semester keenam",
+                "harus di 6 mata apakah ada tertentu  dengan wajib kuliah persyaratan dipenuhi semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 6:\n1. Aplikasi Teknologi & Transformasi Digital \n2. Kewarganegaraan \n3. Agama \n4. Pengembangan Sistem dan Operasi"
+            ]
+        },
+        {
+            "tag": "16",
+            "patterns": [
+                "tujuh",
+                "7",
+                "semester 7",
+                "semester tujuh",
+                "7 semester mata kuliah",
+                "di mata apa 7 wajib kuliah saja semester",
+                "di mata apa  menjadi wajib kuliah saja tujuh semester",
+                "harus di mata diambil apa  kuliah daftar semester tujuh lengkap",
+                "harus pada mata diambil susunan  bagaimana kuliah semester tujuh",
+                "harus di mata apakah ada tertentu  dengan 7 wajib kuliah persyaratan dipenuhi semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 7:\n1. Technopreneur \n2. Bahasa Inggris \n3. Bahasa Indonesia \n4. Pancasila \n5. SI Capstone \n6. Pra TA"
+            ]
+        },
+        {
+            "tag": "17",
+            "patterns": [
+                "delapan",
+                "8",
+                "semester 8",
+                "semester delapan",
+                "semester 8 mata kuliah",
+                "di mata 8 apa wajib kuliah saja semester",
+                "di mata delapan apa  menjadi wajib kuliah saja semester",
+                "harus di mata diambil 8 apa  kuliah daftar semester lengkap",
+                "harus pada mata diambil delapan susunan  bagaimana kuliah semester",
+                "harus di mata apakah ada 8 tertentu  dengan wajib kuliah persyaratan dipenuhi semester"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah wajib yang perlu diambil oleh mahasiswa di semester 8:\n1. Tugas Akhir"
+            ]
+        },
+        {
+            "tag": "18",
+            "patterns": [
+                "se",
+                "sistem enterprise",
+                "laboratorium se mata kuliah",
+                "mata ada se apa pilih kuliah lab",
+                "enterprise mata laboratorium apa ambil sistem pilih kuliah dapat",
+                "enterprise mata laboratorium sedia apa sistem pilih kuliah daftar",
+                "enterprise mata opsi laboratorium mahasiswa sedia apa sistem kuliah",
+                "enterprise dapat mata laboratorium ada mahasiswa minat ambil sistem kuliah sesuai variasi"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah pilihan yang tersedia di laboratorium Sistem Enterprise:\n1. Manajemen Rantai Pasok\n2. Manajemen Hubungan Pelanggan\n3. Sistem Keputusan Berbasis Model"
+            ]
+        },
+        {
+            "tag": "19",
+            "patterns": [
+                "addi",
+                "data diseminasi addi dan informasi akuisisi",
+                "data diseminasi addi mata laboratorium dan kuliah informasi akuisisi",
+                "data diseminasi addi mata ada dan apa pilih lab kuliah informasi akuisisi",
+                "data addi mata laboratorium tawar apa pilih kuliah informasi mas akuisisi",
+                "data addi mata laboratorium sedia apa informasi pilih kuliah daftar mas lengkap akuisisi",
+                "data addi mata opsi laboratorium mahasiswa sedia apa kuliah informasi mas akuisisi",
+                "data diseminasi addi mata laboratorium dan apa kategori pilih masuk kuliah informasi akuisisi"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah pilihan yang tersedia di laboratorium Akuisisi Data dan Diseminasi Informasi:\n1. Pengetahuan Graf\n2. Pengolahan Bahasa Alami\n3. Sistem Data-Intensif"
+            ]
+        },
+        {
+            "tag": "20",
+            "patterns": [
+                "rdib",
+                "data bisnis dan intelegensi rdib rekayasa",
+                "data mata bisnis laboratorium dan intelegensi rdib kuliah rekayasa",
+                "data mata bisnis ada dan apa intelegensi pilih rdib kuliah lab rekayasa",
+                "data mata bisnis laboratorium tawar apa intelegensi pilih rdib kuliah rekayasa",
+                "data mata bisnis laboratorium sedia intelegensi pilih rdib daftar bagaimana kuliah rekayasa lengkap",
+                "data mata opsi bisnis laboratorium mahasiswa dan apa intelegensi pilih rdib kuliah rekayasa dapat",
+                "data mata bisnis laboratorium apa intelegensi kategori pilih rdib masuk kuliah rekayasa"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah pilihan yang tersedia di laboratorium Rekayasa Data & Intelegensi Bisnis:\n1. Perspective Modelling & Analytics\n2. Soft Computing\n3. Permodelan Sistem Kognitif"
+            ]
+        },
+        {
+            "tag": "21",
+            "patterns": [
+                "msi",
+                "informasi sistem manajemen msi",
+                "mata laboratorium manajemen msi sistem kuliah informasi",
+                "mata ada manajemen msi apa sistem lab pilih kuliah informasi",
+                "mata opsi mahasiswa manajemen msi apa ambil sistem lab pilih kuliah informasi dapat",
+                "mata manajemen msi apa informasi sistem kategori pilih masuk kuliah lab",
+                "mata ada mahasiswa manajemen minat msi sistem lab kuliah informasi sesuai variasi",
+                "mata tahu mahasiswa manajemen msi ambil sistem daftar lab pilih bagaimana kuliah informasi dapat"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah pilihan yang tersedia di laboratorium Manajemen Sistem Informasi:\n1. Tata Kelola dan Audit TI\n2. Manajemen Perubahan Organisasi\n3. Manajemen Investasi TI"
+            ]
+        },
+        {
+            "tag": "22",
+            "patterns": [
+                "ikti",
+                "keamanan dan infrasktruktur informasi teknologi ikti",
+                "mata laboratorium keamanan dan infrasktruktur kuliah informasi teknologi ikti",
+                "mata keamanan ada dan apa informasi pilih infrasktruktur kuliah lab teknologi ikti",
+                "mata keamanan sedia dan ikti informasi lab pilih infrasktruktur bagaimana kuliah daftar teknologi lengkap",
+                "mata opsi mahasiswa apa informasi ambil lab pilih ikti aman kuliah infrastuktur teknologi dapat",
+                "mata apa kategori pilih masuk kuliah lab",
+                "di mata apakah ada mahasiswa minat  dengan ikti kuliah lab sesuai variasi"
+            ],
+            "responses": [
+                "Berikut adalah mata kuliah pilihan yang tersedia di laboratorium Infrastuktur dan Keamanan Teknologi Informasi:\n1. Teknologi Machine Lerning\n2. Tata Kelola Keamana TI\n3. Forensik Digital"
+            ]
+        },
+        {
+            "tag": "23",
+            "patterns": [
+                "mata mahasiswa ambil wajib kuliah",
+                "harus mata mahasiswa apa ambil wajib kuliah",
+                "mata mahasiswa apa ambil lebih wajib kuliah",
+                "mata kuliah frs bagaimana cara tentu",
+                "mata saya apa ambil kuliah tepat",
+                "mata perlu saat frs apa  ambil lebih kuliah war"
+            ],
+            "responses": [
+                "Mata kuliah yang wajib diambil terlebih dahulu oleh mahasiswa adalah mata kuliah yang sesuai dengan semester yang sedang dijalani. Untuk melihat mata kuliah yang wajib diambil oleh mahasiswa, anda dapat mengetik dengan keyword \"mata kuliah wajib semester x\". Contoh keywordnya adalah \"mata kuliah wajib semester 1\"."
+            ]
+        },
+        {
+            "tag": "24",
+            "patterns": [
+                "mata diambil  kuliah batasan dapat",
+                "konsekuensinya mata seorang mahasiswa dalam dan mengambil jika apa  tidak lulus menjadi kuliah persiapan batasan tahap",
+                "mata mahasiswa diambil  adakah kuliah oleh batasan",
+                "mata atas kapan mahasiswa orang ambil kuliah semester",
+                "kena mata mahasiswa tingkat atur tentu ambil kuliah awal dapat",
+                "harus mata apakah kuliah ada mahasiswa mengambil tertentu  sebelum persyaratan dipenuhi dapat"
+            ],
+            "responses": [
+                "Berikut adalah batasan dalam mengambil mata kuliah:\n1. Mata kuliah laboratorium dapat diambil oleh mahasiswa minimal semester 6\n2. Mata kuliah pengayaan dapat diambil oleh mahasiswa minimal semester 6\n3. Mata kuliah Pra-TA dapat diambil oleh mahasiswa minimal semester 6\n4. Mata kuliah TA dapat diambil oleh mahasiswa setelah mahasiswa lulus mata kuliah Pra-TA\n5. Mata kuliah semester atas dapat diambil setelah mata kuliah wajib telah diambil dan masih tersedia jumlah SKS dan jumlah peserta yang ada di kelas tersebut\n6. Mata kuliah tahap perisapan hanya dapat diambil oleh mahasiswa maksimal 4 semester awal, apabila belum lulus maka mahasiswa akan di Drop Out\n7. Mahasiswa berhak mengambil semua mata kuliah sesuai pilihan selama mata kuliah tersebut dibuka oleh departemen"
+            ]
+        },
+        {
+            "tag": "25",
+            "patterns": [
+                "dalam syarat frs mengisi",
+                "harus apakah ada mahasiswa dilakukan frs  sebelum oleh syarat mengisi",
+                "rencana studi mahasiswa untuk frs apa  menjadi utama mengisi formulir bagi syarat dapat",
+                "harus rencana studi mahasiswa mengisi apa  mereka sebelum persyaratan formulir dipenuhi oleh dapat",
+                "harus khusus di mata apakah kuliah ada mahasiswa mendaftarkan frs tertentu  sebelum persyaratan dipenuhi dapat",
+                "bayar perlu mahasiswa kait biaya registrasi penuh frs isi kuliah syarat tentu"
+            ],
+            "responses": [
+                "Untuk dapat mengisi FRS, mahasiswa harus menjadi mahasiswa aktif dimana mahasiswa telah membayar UKT di semester tersebut"
+            ]
+        },
+        {
+            "tag": "26",
+            "patterns": [
+                "sama mata kuliah atas cara jadwal jam",
+                "sama mata kuliah atas bagaimana cara jadwal jam",
+                "harus ingin mata mahasiswa tabrak apa laku ambil kuliah jadwal dapat",
+                "sama mata milik mahasiswa selesai masalah mereka kuliah bagaimana jadwal jam",
+                "solusi opsi ada sedia tabrak hindar sistem informasi jadwal",
+                "sama saran atas mahasiswa efektif tips masalah jadwal dapat beri"
+            ],
+            "responses": [
+                "Untuk mengatasi terjadinya tabrakan pada jam yang sama, maka mahasiswa harus mengambil kelas yang sama untuk setiap mata kuliah yang diambilnya. Contohnya mahasiswa harus mengambil matakuliah RO (A) dan ADD (A). Dengan demikian, tidak akan terjadi tabrakan pada jam yang sama karena departemen sudah mengatur jadwal kuliah yang berbeda untuk kode kelas yang sama."
+            ]
+        },
+        {
+            "tag": "27",
+            "patterns": [
+                "tuju wali perlu frs dosen",
+                "tuju wali perlu frs dosen",
+                "harus materi mahasiswa frs apa laku absensi mereka kuliah isi akses",
+                "tuju wali mahasiswa frs laku biasa proses dosen bagaimana",
+                "wali adanya manfaat dari mahasiswa dalam pengelolaan frs apa persetujuan dosen kuliah oleh",
+                "tuju ajar hubung akses frs absensi bagaimana kuliah classroom platform"
+            ],
+            "responses": [
+                "FRS perlu disetujui oleh dosen wali agar dosen wali dapat mengetahui mata kuliah yang diambil oleh murid walinya. Selain itu dengan adanya persetujuan dari dosen wali, maka mahasiswa dapat mengakses materi kuliah di classroom dan dapat absen di presensi. Jika FRS tidak disetujui oleh dosen wali, maka mahasiswa tidak dapat mengakses mata kuliah di classroom dan absen di presensi"
+            ]
+        },
+        {
+            "tag": "28",
+            "patterns": [
+                "untuk frs waktu batas mengisi",
+                "rencana apakah studi ada dalam waktu batas mengisi formulir",
+                "rencana studi berakhir masa kapan dan pengisian frs setiap tepatnya dimulai formulir semester",
+                "harus ditentukan mahasiswa dalam dilakukan frs apa  batas mereka waktu mengisi oleh dapat agar",
+                "studi mahasiswa frs proses waktu batas bagaimana rencana isi penting patuh",
+                "rencana studi kapan frs biasa waktu batas akhir formulir semester isi"
+            ],
+            "responses": [
+                "Dalam mengisi FRS terdapat batas waktu dalam pengisian dimana masa pengisian FRS hanya terdapat dalam rentang waktu 1 minggu sebelum minggu perkuliahan dimulai"
+            ]
+        },
+        {
+            "tag": "29",
+            "patterns": [
+                "frs lewat batas isi konsekuensi",
+                "frs lewat apa batas isi konsekuensi",
+                "ditentukan apakah mahasiswa ada jika dalam tidak frs  batas waktu mengisi telah konsekuensi",
+                "ditentukan mahasiswa dalam jika dilakukan tidak apa  frs waktu mereka mengisi oleh rentang dapat",
+                "rencana studi mahasiswa frs orang gagal apa waktu batas akhir jadi formulir isi dapat",
+                "mahasiswa orang lewat frs biasa waktu batas bagaimana terap isi konsekuensi bijak"
+            ],
+            "responses": [
+                "Jika mahasiswa melewati batas pengisian Formulir Rencana Studi, maka mahasiswa harus menghubungi dosen wali dan departemen untuk melakukan konfirmasi mengenai alasan tidak mengambil di waktu pengisian. Jika disetujui, maka mata kuliah mahasiswa harus diambilkan oleh Akademik Departemen dan tidak bisa mengambilnya secara manual. Selain itu mahasiswa juga dapat mengganti mata kuliah tersebut hingga minggu ke 3."
+            ]
+        },
+        {
+            "tag": "30",
+            "patterns": [
+                "mata kuliah frs cara ubah",
+                "mata kuliah frs bagaimana cara ubah",
+                "harus ingin mengubah salah mata mahasiswa dalam jika frs diikuti  terdaftar mereka bagaimana kuliah satu oleh prosedur",
+                "mata atur biasa sistem proses bagaimana kuliah informasi ubah",
+                "telah harus rencana salah mata langkahlangkah ikut studi mahasiswa frs apa daftar mereka kuliah satu formulir ubah",
+                "harus khusus dapat mahasiswa frs laku penuh syarat ubah"
+            ],
+            "responses": [
+                "Untuk mengubah mata kuliah, mahasiswa perlu drop mata kuliah terlebih dahulu. Setelah di drop, mahasiswa dapat menambahkan mata kuliah tersebut"
+            ]
+        },
+        {
+            "tag": "31",
+            "patterns": [
+                "jadwal mata kuliah",
+                "file link mata ikan kait kuliah jadwal",
+                "di mahasiswa sistem its bagaimana cara informasi jadwal akses",
+                "mana mahasiswa temu sistem its lihat informasi jadwal akses",
+                "unduh dari mahasiswa referensi pribadi cetak sistem its bagaimana informasi jadwal",
+                "mata file kuliah aktual bagaimana cara jadwal akses dapat"
+            ],
+            "responses": [
+                "Berikut adalah jadwal mahasiswa di sistem informasi ITS: https://drive.google.com/file/d/1VbOtslHvJn0J--lXmzAryRaqUYWSErEi/view"
+            ]
+        },
+        {
+            "tag": "32",
+            "patterns": [
+                "silabus mata kuliah",
+                "file link mata ikan kait silabus kuliah",
+                "mata pihak kuliah akses mahasiswa silabus sistem its bagaimana cara informasi penting",
+                "taut mata mana temu biasa silabus sistem its kuliah informasi akses",
+                "kena data mata tawar institusi semua silabus katalog kuliah informasi basis isi dapat",
+                "tuju ajar nilai mata cakup baca informasi silabus deskripsi kuliah daftar"
+            ],
+            "responses": [
+                "Berikut adalah silabus mata kuliah di sistem informasi ITS : https://drive.google.com/drive/folders/1FWJ9hQMK6C3d9LAEmF08JeGfTgx9i7A6"
+            ]
+        },
+        {
+            "tag": "33",
+            "patterns": [
+                "nama cara mata sebut dosen kuliah ampu lihat",
+                "mengakses nama bisa bagimana kelas saya  setiap dosen mengampu",
+                "namanama mata kuliah ada sistem dosen its cara ampu informasi tentu lihat",
+                "jawab mata atas mana kelas temu dosen kuliah informasi dapat tanggung",
+                "nama mata kontak cakup sebut tambah dosen konsultasi kuliah ampu informasi jam",
+                "ajar sedia dosen daftar umum dapat"
+            ],
+            "responses": [
+                "Untuk melihat jadwal dosen yang mengampu mata kuliah tersebut, mahasiswa dapat melihatnya melalui silabus mata kuliah di sistem informasi ITS. Selain itu jika ingin melihat secara spesifik dosen yang mengajar di kelas tersebut, maka mahasiswa dapat melihat melalui jadwal perkuliahan yang diberikan oleh Departemen."
+            ]
+        },
+        {
+            "tag": "34",
+            "patterns": [
+                "wali sudah frs bahwa memastikan dosen cara disetujui oleh",
+                "wali sudah frs bahwa memastikan dosen bagaimana cara disetujui oleh",
+                "wali apakah mahasiswa memeriksa frs dosen mereka bagaimana telah disetujui oleh dapat",
+                "tuju aju mana mahasiswa frs temu telah status",
+                "tuju tahu perlu mahasiswa frs apa cari telah perhati",
+                "indikator tuju tahu visual tanda bantu mahasiswa frs telah dapat"
+            ],
+            "responses": [
+                "Untuk memastikan bahwa FRS telah disetujui oleh dosen wali, mahasiswa dapat mengeceknya melalui laman Formulir Rencana Studi di SIAKAD. Lalu jika sudah disetujui oleh dosen wali maka status akan berubah dari \"FRS BELUM DISETUJUI\" menjadi \"PERSETUJUAN TELAH DILAKUKAN\". Selain itu warna status tersebut akan berubah dari merah menjadi biru."
+            ]
+        },
+        {
+            "tag": "35",
+            "patterns": [
+                "langkah wali setelah frs dosen selanjutnya oleh disetujui",
+                "langkah wali setelah frs apa dosen selanjutnya oleh disetujui",
+                "langkah menjalani untuk frs apa memastikan disetujui harus mahasiswa setelah mereka perkuliahan  bahwa dosen siap selanjutnya wali diambil oleh",
+                "di wali siakad mahasiswa memeriksa setelah oleh frs dosen mereka bagaimana disetujui status dapat",
+                "tuju perlu mahasiswa frs periksa apa telah status perhati",
+                "harus tuju perhati presensi mahasiswa periksa frs informasi classroom penting dapat"
+            ],
+            "responses": [
+                "Langkah selanjutnya setelah disetujui oleh dosen wali adalah mahasiswa dapat mengecek status FRS mereka di SIAKAD. Selain itu mahasiswa dapat mengecek classroom dan presensi. Jika sudah dapat diakases, maka mahasiswa dapat menjalani perkuliahan di semester tersebut."
+            ]
+        },
+        {
+            "tag": "36",
+            "patterns": [
+                "mata atas ambil kuliah semester syarat",
+                "mata atas ambil bagaimana kuliah semester syarat",
+                "harus mata atas mahasiswa apa penuh ambil utama mereka kuliah semester syarat",
+                "berapa mata mulai atas mahasiswa ambil izin kuliah semester jam",
+                "harus langkah mata apakah atas mahasiswa saat terdapat mengambil tertentu  diikuti atau kuliah semester oleh prosedur",
+                "mata perlu belum mahasiswa semua ambil mereka wajib kuliah bagaimana semester pasti"
+            ],
+            "responses": [
+                "Untuk mengambil mata kuliah semester atas, mahasiswa harus memastikan bahwa ia sudah mengambil seluruh mata kuliah wajib di semester yang akan dijalani. Jika sudah diambil dan masih terdapat sisa SKS, maka mahasiswa dapat mengambil mata kuliah semester atas. Mahasiwa dapat mengambil mata kuliah semester atas mulai dari jam 13.00 setelah mahasiswa semester atas telah mengambil mata kuliah wajib tersebut dan selama slot kelas mata kuliah tersebut masih tersedia. Mata kuliah semester atas baru bisa diambil oleh mahasiswa mulai dari Semester 2"
+            ]
+        },
+        {
+            "tag": "37",
+            "patterns": [
+                "mata kuliah laboratorium ambil pilih cara",
+                "mata kuliah bagimana laboratorium ambil cara",
+                "harus mata laboratorium mahasiswa apa laku ambil kuliah",
+                "beda mata laboratorium biasa kuliah daftar prosedur",
+                "mata tersedia laboratorium mahasiswa mengetahui  bagaimana kuliah daftar dapat",
+                "mata laboratorium mahasiswa slot pilih waktu bagaimana kuliah jadwal sesuai"
+            ],
+            "responses": [
+                "Berikut adalah cara untuk mengambil mata kuliah laboratorium\n1. Untuk mengambil mata kuliah laboratorium, minimal mahasiswa berada di Semester 6. \n2. Buka SIAKAD lalu pilih Formulir Rencana Studi\n3. Untuk memilih mata kuliah laboratorium, pilih bagian Kelas Departemen lalu pilih mata kuliah laboratorium yang ingin diambil oleh mahasiswa\n4. Setelah dipilih, klik tombol ambil dan mahasiswa harus mengisi kode Qacha untuk diverifikasi\n5. Setelah mengambil mata kuliah, mata secara otomatis mata kuliah tersebut telah ditambahkan ke FRS mahasiswa"
+            ]
+        },
+        {
+            "tag": "38",
+            "patterns": [
+                "cara mata pengayaan mengambil kuliah",
+                "cara mata bagimana pengayaan mengambil kuliah",
+                "harus mata langkahlangkah mahasiswa untuk mengambil pengayaan diikuti  apa kuliah oleh",
+                "mata laboratorium ambil sistem its bagaimana kuliah informasi prosedur",
+                "harus langkah ingin pertama mata mahasiswa untuk pengayaan diikuti  ketika mereka bagaimana kuliah mendaftar oleh"
+            ],
+            "responses": [
+                "Berikut adalah cara untuk mengambil mata kuliah pengayaan\n1. Untuk mengambil mata kuliah pengayaan, minimal mahasiswa berada di Semester 6. \n2. Buka SIAKAD lalu pilih Formulir Rencana Studi\n3. Untuk memilih mata kuliah pengayaan, pilih bagian Kelas Pengayaan lalu pilih mata kuliah pengayaan yang ingin diambil oleh mahasiswa\n4. Setelah dipilih, klik tombol ambil dan mahasiswa harus mengisi kode Qacha untuk diverifikasi\n5. Setelah mengambil mata kuliah, mata secara otomatis mata kuliah tersebut telah ditambahkan ke FRS mahasiswa"
+            ]
+        },
+        {
+            "tag": "39",
+            "patterns": [
+                "mata dari mahasiswa mengetahui mana pengayaan tersebut berasal departemen bagaimana kuliah dapat",
+                "cara mata pengayaan kuliah jadwal melihat",
+                "mata kuliah pengayaan bagaimana cara jadwal melihat",
+                "mata tersedia mahasiswa mengetahui pengayaan  bagaimana kuliah daftar dapat",
+                "melihat mata langkahlangkah tersedia mahasiswa diambil untuk pengayaan  bagaimana kuliah jadwal oleh dapat",
+                "jadwal mata mahasiswa unggah kaya himpun bagaimana kuliah instagram akses",
+                "mata perlu tersedia mahasiswa mengetahui untuk dilakukan pengayaan apa  kuliah jadwal oleh"
+            ],
+            "responses": [
+                "Untuk melihat jadwal mata kuliah pengayaan, setelah mahasiswa telah mengetahui kelas mata kuliah apa saja yang tersedia maka mahasiswa dapat melihat juga berasal dari departemen mana mata kuliah tersebut. Jika sudah mengetahui mata kuliah tersebut berasal dari departemen mana, maka mahasiswa dapat mencari instagram dari himpunan tersebut. Biasanya jadwal mata kuliah akan tersedia di Instagram himpunan. Namun apabila tidak tersedia jadwalnya, mahasiswa dapat mengubungi Sekretariat Departemen untuk mengetahui informasi lebih lanjut."
+            ]
+        },
+        {
+            "tag": "40",
+            "patterns": [
+                "mata pengayaan mengambil kuliah syarat",
+                "mata pengayaan mengambil apa kuliah syarat",
+                "harus khusus mata apakah kuliah ada mahasiswa untuk pengayaan  mendaftar mereka sebelum persyaratan dipenuhi oleh dapat",
+                "harus minimum mata mahasiswa apa penuh ambil kaya izin mereka kuliah syarat",
+                "harus mata kuliah dipenuhi mahasiswa pengayaan mengambil apa  mereka sebelum persyaratan minimal oleh dapat",
+                "harus ingin memilih mata diperhatikan mahasiswa dalam pengayaan apa  ambil mereka kuliah oleh"
+            ],
+            "responses": [
+                "Syarat mengambil mata kuliah pengayaan adalah mahasiswa minimal berada di Semester 6. Lalu mahasiswa harus memastikan bahwa mata kuliah pengayaan yang diambil jadwalnya tidak bertabrakan dengan mata kuliah Departemen. Mahasiswa wajib mengambil minimal 1 mata kuliah pengayaan selama perkuliahan dan bebas memilih mata kuliah pengayaan sesuai dengan keinginan mahasiswa."
+            ]
+        },
+        {
+            "tag": "41",
+            "patterns": [
+                "mata kuliah belum ulang lulus cara",
+                "mata kuliah belum ulang lulus bagaimana cara",
+                "harus mata mahasiswa apa laku lulus suatu mereka kuliah",
+                "mata belum ulang sistem lulus its bagaimana kuliah informasi prosedur",
+                "mata kuliah belum mahasiswa ulang lulus bagaimana cara daftar",
+                "mata langkahlangkah studi belum ulang ambil lulus bagaimana kuliah rencana tepat penting"
+            ],
+            "responses": [
+                "Untuk mengulang mata kuliah yang belum lulus maka mahasiswa harus mengambil mata kuliah tersebut di Semester berikutnya. Untuk mengambil mata kuliah tersebut terdapat beberapa tahap yakni:\n1. Buka SIAKAD lalu pilih Formulir Rencana Studi\n2. Pilih bagian Kelas Departemen / Kelas SKBP lalu pilih mata kuliah yang perlu diulang oleh mahasiswa\n3. Setelah dipilih, klik tombol \"Ambil\" dan mahasiswa harus mengisi kode Qacha untuk diverifikasi\n4. Setelah mengambil mata kuliah, mata secara otomatis mata kuliah tersebut telah ditambahkan ke FRS mahasiswa"
+            ]
+        },
+        {
+            "tag": "42",
+            "patterns": [
+                "sks perlu ambil lulus s1 syarat jumlah",
+                "berapa sks perlu ambil lulus s1 syarat jumlah",
+                "harus berapa sks mahasiswa total orang lulus its program s1 capai dapat jumlah",
+                "harus berapa gelar sks total selesai s1 dapat",
+                "sks untuk apa persyaratan program s1 menyelesaikan jumlah",
+                "hitung sks lulus butuh bagaimana program s1"
+            ],
+            "responses": [
+                "Berikut adalah syarat mahasiswa Sistem Informasi ITS untuk lulus S1:\n1. Total SKS lulus (diatas D) minimal 144 SKS yang terdiri dari 126 SKS mata kuliah wajib, 12 SKS mata kuliah laboratorium, 3 SKS mata kuliah pengayaan, dan tugas akhir dengan masa studi maksimal 14 semester dan minimal IPK 2.5\n2. Sertifikat Bahasa Asing yakni TOEFL minimal 477 dan sudah diverifikasi oleh ITS\n3. Syarat SKEM minimal terpenuhi"
+            ]
+        },
+        {
+            "tag": "43",
+            "patterns": [
+                "ingin kelas mendaptkan cara",
+                "ingin kelas bagaimana cara dapat",
+                "ingin langkahlangkah perlu kelas apa ambil capai",
+                "tuju akademik efektif capai bagaimana strategi tentu",
+                "ingin bisa perlu kelas apa laku masuk",
+                "saran kelas tingkat apa pilih peluang masuk"
+            ],
+            "responses": [
+                "Untuk mendapatkan kelas yang diinginkan, ada beberapa tips yang dapat dilakukan oleh mahasiswa yakni:\n1. Setelah mendapatkan jadwal mata kuliah dari departemen (biasanya 3 hari dikirim sebelum masa FRS dimulai), tentukan mata kuliah yang diambil oleh mahasiswa\n2. Pastikan mahasiswa mengambil mata kuliah wajib di semester tersebut\n3. Pilih kode kelas yang sama untuk menghindari terjadinya tabrakan kelas. Misalnya : RO (A) dan ADD (A)\n4. Pastikan juga mahasiswa memiliki rencana jadwal kelas lainnya jika kelas tersebut sudah penuh\n5. Pada saat masa FRS, buka SIAKAD sepagi mungkin untuk menghindari terjadinya overload\n6. Jika sudah saatnya dapat mengambil mata kuliah, segera mengambil mata kuliah yang diinginkan\n7. Jika seluruh mata kuliah wajib sudah terpenuhi dan masih terdapat sisa SKS, maka mahasiswa dapat mengambil mata kuliah semester atas selama slot kelasnya masih tersedia dan mahasiswa dapat mengambil mata kuliah semester atas mulai dari jam 13.00"
+            ]
+        },
+        {
+            "tag": "44",
+            "patterns": [
+                "1 kenapa dan dipaketkan 2 sem",
+                "1 kenapa dan dipaketkan 2 semester",
+                "balik 1 alas paket apa 2 gabung satu semester",
+                "pertama kedua untuk mempaketkan dan its mengapa memutuskan semester",
+                "tuju kelompok 1 paket apa 2 satu semester",
+                "dua pertama kombinasi manfaat apa satu semester unit"
+            ],
+            "responses": [
+                "Pada semseter 1 dan 2, mata kuliah dipaketkan agar memudahkan mahasiswa untuk mengambil mata kuliah di semester tersebut karena mereka merupakan mahasiswa baru yang mungkin belum paham dengan sistem SIAKAD yang ada di ITS. Selain itu mata kuliah dipaketkan agar seluruh mahasiswa dapat mengambil mata kuliah sesuai dengan semesternya untuk menghindari terjadinya ketersedian kelas dan mata kuliah pada semester 1 dan 2 memiliki struktur yang sama. Untuk semester 1 mahasiswa tidak diperkenankan mengambil mata kuliah tambahan dikarenakan departemen belum mengetahui performa dari mahasiswa tersebut, sehingga mahasiswa baru diperbolehkan mengambil mata kuliah semester atas mulai dari semester 2"
+            ]
+        },
+        {
+            "tag": "45",
+            "patterns": [
+                "paket mata opsi kuliah",
+                "harus 1 opsi 1per1 paket matkul pilih langsung war dapat",
+                "kelompok mata opsi ada paket kuliah daftar tentu",
+                "mata studi mahasiswa tawar mungkin paket informasi pilih sistem departemen kuliah program",
+                "kebijakan mata apakah kuliah ada mahasiswa untuk mengambil sebagai  memungkinkan kesatuan serangkaian satu",
+                "kelompok bisa mata paket pilih bagaimana kuliah daftar tentu"
+            ],
+            "responses": [
+                "Secara tidak langsung, departemen sudah mengelompokkan mata kuliah wajib berdasarkan semester yang akan dijalankan oleh mahasiswa. Selain itu departemen sudah menyedikan jumlah kelas berdasar jumlah mahasiswa yang mengambil mata kuliah wajib tersebut sehingga jika setiap mahasiswa tertib mengambil mata kuliah dengan kode kelas yang sama, maka mahasiswa pasti akan mendapatkan kelas dan tidak perlu rebutan untuk mendapatkan kelas. Namun, departemen memberikan kesempatan bagi mahasiswa untuk mengatur jadwal sesuai keinginan mahasiwa. Selain itu departemen juga memberikan kesempatan bagi mahasiswa untuk mengambil mata kuliah atas dengan syarat mengambil mata kuliah tersebut diatas jam 1 siang. Dengan demikian, jika mahasiswa tidak mendapatkan kelas, maka ia harus berkoordinasi dengan teman-teman angkatannya dan juga dapat mengajukan penambahan kelas kepada Departemen."
+            ]
+        },
+        {
+            "tag": "46",
+            "patterns": [
+                "kode qacha",
+                "ingin qacha mata kuliah ada mudah  ambil lebih cara banding",
+                "qacha guna mata ada alternatif  lebih sederhana kuliah daftar",
+                "mengakses lain qacha mata kuliah tanpa melalui untuk digunakan  atau bagaimana cara mendaftar dapat",
+                "praktis mata qacha ada lebih proses metode kuliah daftar",
+                "guna mata opsi mudah apa  ambil lebih kuliah"
+            ],
+            "responses": [
+                "Sampai saat ini Departemen Sistem Informasi masih menggunakan kode Qacha untuk memberikan verifikasi persetujuan untuk mengambil mata kuliah. Namun departemen tidak menutup kemungkinan untuk mengganti kode Qacha dengan metode lain untuk meyakinkan bahwa mahasiswa benar-benar ingin mengambil mata kuliah tersebut."
+            ]
+        },
+        {
+            "tag": "47",
+            "patterns": [
+                "ingin kelas sedia frs ecek kursi",
+                "ingin rencana studi kelas sedia ecek bagaimana formulir kursi",
+                "ingin rencana studi ada langkahlangkahnya kelas saya periksa apa formulir kursi kosong",
+                "ingin milik kelas saya bagaimana cara daftar kapasitas tentu",
+                "bisa tahu masih kelas sedia saya penuh pilih bagaimana daftar",
+                "rencana studi tiap ada kelas sedia informasi formulir kursi jumlah"
+            ],
+            "responses": [
+                "Untuk melihat ketersedian peserta di mata kuliah tersebut terdapat beberapa tahap yang perlu dilakukan oleh mahasiswa yakni:\n1. Buka SIAKAD lalu klik Formulir Rencana Studi\n2. Pada laman FRS, terdapat pilihan Kelas Departemen, Kelas Departemen Lain, Kelas SKPB, dan Kelas Pengayaan\n3. Pilih mata kuliah yang ingin dilihan oleh mahasiswa\n4. Setelah dipilih, maka disebelah mata kuliah, terdapat kelas dari mata kuliah tersebut, jumlah mahasiswa yang sudah mengambil kelas tersebut, dan kapasitas dari kelas yang tersedia. Apabila masih ada sisa, maka mahasiswa dapat kelas dari mata kuliah tersebut"
+            ]
+        },
+        {
+            "tag": "48",
+            "patterns": [
+                "ambil lebih sks",
+                "miliki sks dari jatah mengambil saya dapatkah lebih ",
+                "harus khusus ingin apakah sks seorang ada mahasiswa jika mengambil diikuti  ditetapkan prosedur batasan melebihi jumlah",
+                "apakah sks untuk mengambil saya maksimum  diizinkan batas ditetapkan telah melebihi",
+                "di kebijakan sks pengambilan atas mengenai  universitas ditetapkan batas bagaimana telah",
+                "khusus sks ada atur ambil satu semester dapat jumlah"
+            ],
+            "responses": [
+                "Bedasarkan peraturan dari kementrian, mahasiswa tidak diperkenankan untuk mengambil jumlah SKS lebih dari batas mahasiswa (24 SKS). Namun jika mahasiswa ingin mengambil mata kuliah yang lebih dari jumlah SKS, maka mahasiswa harus berdiskusi dengan dosen wali agar dapat disetujui. Dosen wali akan menilai dari progres IPS mahasiswa setiap semesternya. Apabila IPS mahasiswa aman, maka kemungkinan besar dosen akan mengijinkan mengambil mata kuliah lebih dari jumlah SKS. Namun apabila IPS mahasiswa kurang sesuai dengan standar dari dosen, maka dosen akan menyarankan mahasiswa untuk mengambil SKS sesuai dengan SKS yang tersedia oleh mahasiswa."
+            ]
+        },
+        {
+            "tag": "49",
+            "patterns": [
+                "serta lihat kelas cara",
+                "mata kuliah serta kelas sebut bagaimana cara daftar lihat",
+                "mengakses caranya ini mata mahasiswa dalam untuk terdaftar  bagaimana kuliah daftar",
+                "mata kuliah serta langkahlangkahnya kelas apa lihat daftar",
+                "di menemukan mengikuti mata ini tentang mana mahasiswa saya  kuliah informasi dapat",
+                "tahu mata langkahlangkahnya saya apa  kuliah daftar siapa"
+            ],
+            "responses": [
+                "Untuk melihat daftar peserta di mata kuliah tersebut terdapat beberapa tahap yang perlu dilakukan oleh mahasiswa yakni:\n1. Buka SIAKAD lalu klik Formulir Rencana Studi\n2. Pada laman FRS, terdapat pilihan Kelas Departemen, Kelas Departemen Lain, Kelas SKPB, dan Kelas Pengayaan\n3. Pilih mata kuliah yang ingin dilihan oleh mahasiswa\n4. Setelah dipilih, klik tombol 'Peserta\"\n5. Sistem akan membuka laman baru yang berisi nama kelas, nama mata kuliah, dan daftar peserta yang mengambil mata kuliah tersebut"
+            ]
+        },
+        {
+            "tag": "50",
+            "patterns": [
+                "ambil lab syarat matkul",
+                "mata laboratorium ambil kuliah syarat",
+                "mata laboratorium untuk diperlukan apa  mendaftar kuliah persyaratan",
+                "di mata laboratorium mengenai aturan sistem its pendaftaran bagaimana kuliah informasi",
+                "harus bisa prasyarat apakah mata kuliah laboratorium ada mengambil tertentu  sebelum dipenuhi",
+                "harus khusus mata laboratorium ada mahasiswa penuh kriteria kuliah daftar"
+            ],
+            "responses": [
+                "Untuk mengambil mata kuliah laboratorium, minimal mahasiswa berada di semester 6. Untuk mata kuliah laboratorium, mahasiswa bebas mengambil mata kuliah sesuai dengan ketertarikan mahasiwa dan selama kelas mata kuliah tersebut tersedia. Namun untuk lulus dari Sistem Informasi, minimal mahasiswa harus mengambil 4 mata kuliah laboratorium yang terdiri dari 2 mata kuliah laboratorium pilihan Tugas Akhir dan 2 mata kuliah laboratorium lainnya."
+            ]
+        },
+        {
+            "tag": "51",
+            "patterns": [
+                "drop kuliah mata cara",
+                "rencana mata kuliah studi drop bagaimana cara formulir",
+                "rencana mata studi hapus langkahlangkahnya apa kuliah formulir",
+                "caranya mata dari studi untuk saya menarik bagaimana kuliah rencana",
+                "menghapus bisa mata kuliah daftarkan saya sudah  atau bagaimana membatalkan",
+                "ingin mengubah menghapus mata langkahlangkah perlu studi jika saya apa  dengan tertentu kuliah ikuti rencana"
+            ],
+            "responses": [
+                "Untuk drop mata kuliah di FRS terdapat beberapa tahap yakni:\n1. Buka SIAKAD lalu klik Formulir Rencana Studi\n2. Pilih mata kuliah yang ingin di drop\n3. Setelah dipilih, klik tombol drop disebelah mata kuliah yang ingin di drop"
+            ]
+        },
+        {
+            "tag": "52",
+            "patterns": [
+                "nambah kuliah mata cara",
+                "rencana mata kuliah studi tambah bagaimana cara formulir",
+                "harus rencana mata langkahlangkah studi dalam untuk ke diikuti  apa menambahkan kuliah formulir",
+                "bisa mata kuliah studi dalam tambah masuk cara bagaimana rencana",
+                "ikut mata perlu ada dalam akademik tambah kuliah rencana prosedur tentu",
+                "harus khusus mata ada penuh tambah kriteria kuliah"
+            ],
+            "responses": [
+                "Untuk menambah mata kuliah di FRS terdapat beberapa tahap yang perlu dilakukan oleh mahasiswa yakni:\n1. Buka siakad lalu klik Formulir Rencana Studi\n2. Pada laman FRS, terdapat pilihan Kelas Departemen, Kelas Departemen Lain, Kelas SKPB, dan Kelas Pengayaan\n3. Untuk memilih mata kuliah yang ada di Sistem Informasi, pilih bagian Kelas Departemen lalu pilih mata kuliah yang ingin diambil oleh mahasiswa\n4. Setelah dipilih, klik tombol ambil dan mahasiswa harus mengisi kode Qacha untuk diverifikasi\n5. Setelah mengambil mata kuliah, mata secara otomatis mata kuliah tersebut telah ditambahkan ke FRS mahasiswa\n6. Lakukan tahap secara berulang untuk mengambil mata kuliah lainnya"
+            ]
+        },
+        {
+            "tag": "53",
+            "patterns": [
+                "berapa mata mahasiswa diambil pengayaan  kuliah oleh dapat jumlah",
+                "berapa mata mahasiswa diambil pengayaan  kuliah oleh dapat jumlah",
+                "mata mahasiswa diambil pengayaan maksimum untuk apa  diizinkan kuliah oleh jumlah",
+                "kena bisa mata mahasiswa ambil kaya bagaimana kuliah tentu jumlah",
+                "mata ada ambil kaya batas kuliah satu semester dapat jumlah",
+                "berapa mata mahasiswa diambil pengayaan dan maksimum dalam  berkuliah wajib kuliah satu semester oleh selama dapat jumlah"
+            ],
+            "responses": [
+                "Mahasiswa wajib mengambil 2 mata kuliah pengayaan selama berkuliah. Namun, mahasiswa hanya dapat mengambil 1 mata kuliah setiap semesternya"
+            ]
+        },
+        {
+            "tag": "54",
+            "patterns": [
+                "sks apa  dengan dimaksud",
+                "kredit maksud apa satu semester",
+                "konteks sks apa didik singkat",
+                "sks dalam akademik pengertian bagaimana dijelaskan",
+                "arti sks dari studi dalam apa pengaturan program",
+                "sks apa definisi universitas sistem didik"
+            ],
+            "responses": [
+                "SKS adalah singkatan dari \"Satuan Kredit Semester.\" SKS adalah satuan yang digunakan dalam sistem pendidikan tinggi untuk mengukur beban belajar atau beban akademik yang diberikan kepada mahasiswa dalam satu semester."
+            ]
+        },
+        {
+            "tag": "55",
+            "patterns": [
+                "baru 1 mata siang atas mahasiswa ambil kuliah semester jam",
+                "balik baru 1 mata siang atas alas mahasiswa apa ambil izin kuliah semester jam bijak",
+                "khusus baru mata jadwal timbang atas ada mahasiswa pengaruh kuliah semester",
+                "baru 1 mata siang atas mahasiswa atur ambil proses bagaimana kuliah semester jam",
+                "baru 1 mata siang atas mahasiswa ambil izin kuliah semester jam"
+            ],
+            "responses": [
+                "Mahasiswa baru boleh mengambil mata kuliah semester atas diatas jam 13:00 karena mata kuliah tersebut merupakan mata kuliah wajib bagi semester atas sehingga bukan menjadi prioritas bagi mahasiswa semester bawah. Selain itu mahasiswa dapat mengambil mata kuliah semester atas apabila jumlah peserta di kelas tersebut masih tersedia"
+            ]
+        },
+        {
+            "tag": "56",
+            "patterns": [
+                "semesternya mata apakah berkesinambungan mahasiswa  setiap kuliah diterima oleh",
+                "di mata kesinambungan seorang belum mahasiswa dalam jika bekerja sistem lulus its bagaimana kuliah informasi awalnya",
+                "mata kesinambungan diajarkan antara  setiap adakah kuliah hubungan semester",
+                "di mata diajarkan  dengan berhubungan berikutnya bagaimana kuliah semester sebelumnya",
+                "mata apakah prasyarat dari ada memerlukan sebagai  kuliah semester pengetahuan sebelumnya"
+            ],
+            "responses": [
+                "Beberapa mata kuliah memiliki kesinambungan disetiap semesternya. Contohnya adalah Rekayasa Kebutuhan Perangkat Lunak di Semester 2 dengan Perancangan & Pembangunan Perangkat Lunak di Semester 5. Namun, di Sistem Informasi ITS, jika mahasiswa belum lulus di mata kuliah awal, maka mahasiswa tetap dapat mengambil mata kuliah lanjutannya sembari mengulang mata kuliah awal."
+            ]
+        },
+        {
+            "tag": "57",
+            "patterns": [
+                "tahu dalam frs rubah waktu batas jadwal",
+                "tahu mahasiswa dalam frs rubah waktu batas jadwal penting",
+                "tahu mahasiswa frs waktu sangat batas jadwal penting ubah",
+                "paham mahasiswa akademik alam frs apa signifikansi waktu batas jadwal ubah",
+                "studi kapan mengetahui dan dilakukan frs mahasiswa hingga dalam perencanaan mereka bagaimana membantu pengubahan dapat",
+                "ikut mahasiswa frs waktu batas telah penting ubah tetap"
+            ],
+            "responses": [
+                "Mengetahui jadwal dan batas waktu ini penting karena memungkinkan mahasiswa untuk melakukan perubahan yang sesuai dengan kebutuhan mereka dalam FRS mereka dan menghindari masalah terkait pengubahan FRS di luar periode yang ditentukan."
+            ]
+        },
+        {
+            "tag": "58",
+            "patterns": [
+                "nilai mahasiswa rendah dapat",
+                "harus nilai mahasiswa dilakukan apa  mendapatkan d oleh",
+                "harus nilai mahasiswa apa laku e dapat",
+                "nilai mata mahasiswa d orang apa konsekuensi kuliah e tentu dapat",
+                "nilai mata raih mahasiswa bawah orang apa suatu jadi kuliah standar",
+                "harus nilai mahasiswa tindak apa ambil mereka d e dapat"
+            ],
+            "responses": [
+                "Untuk mahasiswa yang mendapat nilai D dan E, maka mahasiswa harus mengulang mata kuliah tersebut. Namun, jika mahasiswa mendapat nilai diatas D, maka mahasiswa tidak diperkenankan untuk mengulang mata kuliah tersebut"
+            ]
+        },
+        {
+            "tag": "59",
+            "patterns": [
+                "seorang mahasiswa dalam akademik pengisian frs tertib pengalaman memengaruhi tata dapat terhadap kepatuhan",
+                "seorang mahasiswa dalam akademik pengisian frs tertib pengalaman bagaimana memengaruhi tata dapat terhadap kepatuhan",
+                "dari mahasiswa dalam akademik pengisian frs apa tertib pengalaman mematuhi tata terhadap dampak",
+                "kemajuan mengikuti seorang mahasiswa dalam dan pengisian frs akademik aturan pedoman bagaimana memengaruhi dapat",
+                "mentaati belajar manfaat dari mahasiswa dalam dan pengisian frs apa kesuksesan peraturan terhadap prosedur",
+                "secara studi mahasiswa frs efisien dengan tertib tata bagaimana membantu mereka program kesesuaian dapat merencanakan"
+            ],
+            "responses": [
+                "Kepatuhan terhadap tata tertib dalam pengisian Formulir Rencana Studi (FRS) dapat memiliki dampak yang signifikan pada pengalaman akademik seorang mahasiswa. Mengisi FRS dengan benar memastikan bahwa mahasiswa mendaftar untuk kelas-kelas yang sesuai dengan program studi dan tujuan akademik mahasiwa. Dengan mematuhi tata tertib FRS, mahasiswa dapat memastikan bahwa mereka menjalani kurikulum yang sesuai dengan persyaratan gelar mahasiwa."
+            ]
+        },
+        {
+            "tag": "60",
+            "patterns": [
+                "buka opsi tanggal frs isi resmi",
+                "buka opsi tanggal frs isi dapat resmi",
+                "kesempatan apakah tanggal ada untuk sebelum frs mengisi pembukaan resmi",
+                "mata mulai opsi sedia registrasi periode kuliah daftar resmi",
+                "kecuali tanggal ada mungkin frs telah isi tentu",
+                "khusus apakah opsi kepada mahasiswa memberikan untuk frs sistem lebih its mengisi informasi awal"
+            ],
+            "responses": [
+                "Di Sistem Informasi ITS, tidak ada opsi pengisian FRS sebelum tanggal resmi pembukaan karena agar semua mahasiswa menjalankan pengisian tersebut secara bersamaan. Namun untuk persetujuan, mahasiswa dapat melakukan persetujuan sebelum jadwal perwalian dengan cara berkomunikasi dengan dosen wali."
+            ]
+        },
+        {
+            "tag": "61",
+            "patterns": [
+                "informasi tentang frs",
+                "putar rencana studi mahasiswa mendaptkan informasi formulir isi",
+                "rencana studi mana mahasiswa kait frs informasi formulir oleh isi",
+                "khusus sesi sedia akademik frs departemen fakultas informasi beri",
+                "rencana studi mahasiswa kait frs temu informasi bagaimana formulir isi"
+            ],
+            "responses": [
+                "Untuk mendapatkan informasi terkait pengisian Formulir Rencana Studi, mahasiswa dapat mencari informasi di instagram hmsi_its dan jarkom dari group angakatan. Selain itu untuk informasi lainnya mahasiswa dapat menghubungi departemen SWF / Student Welfare HMSI ITS dan dosen yang mengurusi bidang akademik"
+            ]
+        },
+        {
+            "tag": "62",
+            "patterns": [
+                "mata kuliah frs konversi cara",
+                "mata hingga proses konversi bagaimana kuliah akhir awal",
+                "perlu saat dilakukan apa  konversi",
+                "sks untuk mbkm konversi bagaimana",
+                "bagimana proses konversi",
+                "harus melakukan mata langkahlangkah mahasiswa saat diikuti  apa konversi kuliah oleh"
+            ],
+            "responses": [
+                "Berikut adalah tahap melakukan konversi mata kuliah:\n1. Mahasiwa perlu mengisi surat FX01 dan meminta tanda tangan dosen wali dan TIM MBKM (https://intip.in/dsiformrencanambkm)\n2. Mahasiswa mengisi link form alih kredit\n3. Saat masa pengsian frs, mahasiswa menginformasikan dosen wali agar mata kuliah tersebut dapat diambil oleh dosen wali.\n4. Ketika masa perkuliahan selesai, mahasiswa perlu lapor kepada tata usaha agar nilai tersebut dapat dimasukkan kedalam frs."
+            ]
+        },
+        {
+            "tag": "63",
+            "patterns": [
+                "magang bisa konversi sks",
+                "magang apa sistem konversi informasi dapat",
+                "frs apa sistem konversi tentu",
+                "sks magang apa kategori sistem its konversi anggap informasi dapat",
+                "dsi sks magang identifikasi jenis konversi bagaimana jadi layak",
+                "ikut sks magang mahasiswa penuh mereka kriteria konversi bagaimana tentu",
+                "si konversi",
+                "alih si kredit"
+            ],
+            "responses": [
+                "Magang yang dapat dikonversi oleh DSI adalah:\n1. Magang program MBKM\n2. Magang mandiri ( durasi 1 semester dengan CPL yang jelas dan terdokumentasi)\n3. Program Magang International (IISMA, student exchange, etc)\nSemua dikonversi maksimal 20 SKS sesuai permen kemendikbud"
+            ]
+        },
+        {
+            "tag": "64",
+            "patterns": [
+                "bisa matkul apa  dikonversi saja",
+                "berapa bisa sks nya untuk dikonversi",
+                "aju kredit mata mana ada mahasiswa alih waktu batas kuliah tentu",
+                "kredit mata maksud apa alih sistem kuliah informasi",
+                "harus mata apa penuh kriteria konversi kuliah dapat"
+            ],
+            "responses": [
+                "Alih kredit hanya bisa pada mata kuliah yang tercantum dan terencana pada semester 6 dan semester 7. jika mata kuliah tersebut sudah diambil, maka SKS alih kredit tidak akan full 20 SKS"
+            ]
+        },
+        {
+            "tag": "65",
+            "patterns": [
+                "link konversi form",
+                "kredit alih link form",
+                "guna link matkul apa konversi isi",
+                "internasional magang matkul apa  butuh konversi syarat",
+                "harus kredit khusus aju ada penuh alih syarat",
+                "mata link kuliah mahasiswa konversi bagaimana cara isi akses",
+                "harus khusus mata portal konversi kuliah formulir akses dapat"
+            ],
+            "responses": [
+                "Untuk melakukan konversi mata kuliah, mahasiswa perlu mengisi form dibawah ini:\n1. https://intip.in/dsirencanambkm\n2. intip.in/dsialihkredit"
+            ]
+        },
+        {
+            "tag": "66",
+            "patterns": [
+                "dasar mata konversi kuliah",
+                "dasar matkul apa konversi satu",
+                "lain guna mata apa pedoman jadi kriteria konversi kuliah satu",
+                "mata atur  biasa sistem proses its konversi bagaimana kuliah satu informasi",
+                "konteks maksud mata apa tinggi konversi didik kuliah",
+                "mata akan sistem konsep konversi bagaimana kuliah informasi jelas"
+            ],
+            "responses": [
+                "Konversi mata kuliah merujuk pada proses perubahan atau penggantian satu mata kuliah dengan mata kuliah lain dalam kurikulum atau program studi sebuah institusi pendidikan, biasanya dengan tujuan tertentu. Di Indonesia, berdasarkan arahan dari kementrian, kementrian memberikan kesempatan pada mahasiswa untuk mengkoversi mata kuliah yang dimiliki dengan program magang yang disediakan oleh pemerintah Indonesia seperti magang MBKM."
+            ]
+        },
+        {
+            "tag": "67",
+            "patterns": [
+                "mata dalam konversi kuliah batasan",
+                "dalam frs apa sistem konversi saja batasan",
+                "guna kendala hadap mahasiswa mungkin frs apa sistem konversi umum",
+                "di rencana studi dalam apa konversi formulir batasan",
+                "di pembatasan dalam frs apa  sistem menjadi utama proses konversi its informasi",
+                "rencana faktor studi dalam apa sistem konversi formulir saja batasan"
+            ],
+            "responses": [
+                "Terdapat beberapa batasan dalam konversi mata kuliah pada Formulir Rencana Studi yakni:\n1. Untuk Magang yang dapat dikonversi oleh Sistem Informasi, mahasiswa minimal mengambil pada saat berada di Semester 6\n2. Magang yang dapat dikonversi oleh Sistem Informasi adalah magang MBKM, magang mandiri, dan magang Internsional\n3. Jumlah SKS yang dapat diterima oleh mahasiswa maksimal 20 SKS\n4. Mahasiswa tidak diperkenankan oleh departemen untuk mengikuti program magang apabila masih banyak mata kuliah wajib di departemen yang harus diulang. Jika mata kuliah wajib mahasiswa sudah lulus, maka mahasiswa diperkenankan untuk mengikuti program magang"
+            ]
+        },
+        {
+            "tag": "68",
+            "patterns": [
+                "pelajar mata negri diambil untuk ke  kuliah luar pertukaran dapat",
+                "ajar ikut mata negeri apa  apabila konversi tukar kuliah luar",
+                "internasional pelajar mata diambil untuk dan selama apa  mengkonversi kuliah persyaratan prosedur pertukaran",
+                "ikut mata negeri luar mahasiswa apa konversi tukar kuliah program dapat",
+                "hanya mata negeri beberapa semua penuh ambil konversi kuliah luar syarat",
+                "internasional ikut mata magang studi mahasiswa apa informasi sistem konversi kuliah jenis program dapat"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk magang internasional adalah mata kuliah pengayaan. Selain itu mata kuliah wajib dan pilihan juga dapat dikonversi selama mata kuliah yang diambil di universitas luar sesuai / relevan dengan mata kuliah yang tersedia di Sistem Informasi ITS."
+            ]
+        },
+        {
+            "tag": "69",
+            "patterns": [
+                "saat persiapan konversi",
+                "disiapkan perlu saat apa  konversi",
+                "harus dokumen mengajukan disiapkan mahasiswa saat apa  atau konversi persyaratan saja oleh",
+                "kelancaran untuk proses itu konversi bagaimana memengaruhi persiapan sendiri dapat",
+                "harus mengajukan disiapkan magang mahasiswa untuk apa  konversi sebelum oleh",
+                "harus aju mata magang mahasiswa apa siap utama konversi jadi kuliah syarat"
+            ],
+            "responses": [
+                "Yang perlu disiapkan mahasiswa sebelum konversi adalah surat FX01 dan bukti bahwa mahasiswa tersebut akan melakukan magang"
+            ]
+        },
+        {
+            "tag": "70",
+            "patterns": [
+                "kuliah mata konversi apa",
+                "mata maksud apa konversi kuliah",
+                "mata akan orang tidak erti konsep konversi bagaimana kuliah jelas",
+                "mata studi mahasiswa peran konversi bagaimana kuliah rencana",
+                "konteks mata maksud akademik apa konversi kuliah",
+                "tuju konteks mata studi institusi apa utama konversi didik kuliah buah program"
+            ],
+            "responses": [
+                "Konversi mata kuliah merujuk pada proses perubahan atau penggantian satu mata kuliah dengan mata kuliah lain dalam kurikulum atau program studi sebuah institusi pendidikan, biasanya dengan tujuan tertentu"
+            ]
+        },
+        {
+            "tag": "71",
+            "patterns": [
+                "kredit mata hasil kuliah konversi cara tentu",
+                "kredit mata hasil kuliah konversi bagaimana cara tentu dapat",
+                "harus kredit mata hasil timbang apa kriteria konversi kuliah buah tentu",
+                "kredit mata mahasiswa penuh ambil konversi mereka kuliah bagaimana syarat tentu",
+                "potensi kredit pandu mata hasil ada mahasiswa bantu pedoman konversi kuliah tentu dapat",
+                "nilai kredit mata akan putus atur sistem konversi bagaimana kuliah beri jumlah"
+            ],
+            "responses": [
+                "Untuk menentukan mata kuliah yang dapat dikonversi, maka mahasiswa harus mengambil mangang yang dapat dikonversi oleh DSI. Magang yang dapat dikonversi oleh DSI adalah:\n1. Magang program MBKM\n2. Magang mandiri ( durasi 1 semester dengan CPL yang jelas dan terdokumentasi)\n3. Program Magang International (IISMA, student exchange, etc)\nSemua dikonversi maksimal 20 SKS sesuai permen kemendikbud"
+            ]
+        },
+        {
+            "tag": "72",
+            "patterns": [
+                "mata dalam konversi kuliah pertimbangan",
+                "mata magang kuliah dari apa konversi pertimbangan saja",
+                "sks berbeda mahasiswa setiap konversi mengapa bobotnya",
+                "mata sks sebut pengaruh dan atur bobot universitas apa konversi bagaimana kuliah tentu",
+                "mata sks pengaruh faktorfaktor bobot apa konversi kuliah tentu",
+                "mata sks atur bobot sistem its konversi bagaimana kuliah informasi tentu"
+            ],
+            "responses": [
+                "Untuk konversi mata kuliah, setiap mahasiswa dapat memiliki bobot SKS yang berbeda karena disesuaikan dengan program konversi yang diambil oleh mahasiswa. Apabila program konversi sangat relevan dengan mata kuliah di Sistem Informasi, maka bobot SKS akan menjadi tinggi dengan maksimal 20 SKS. Namun, jika program konversi tidak relevan dengan mata kuliah di Sistem Informasi, maka nilai bobot konversi akan menjadi kecil."
+            ]
+        },
+        {
+            "tag": "73",
+            "patterns": [
+                "sesuai konversi tidak matkul",
+                "ajar magang saya matkul apa  konversi sesuai",
+                "magang saya matkul  konversi rupa",
+                "harus mengajukan mata magang kuliah berbeda dipertimbangkan mahasiswa apa  dengan pengalaman konversi sebelum oleh",
+                "mata magang studi mahasiswa pengaruh orang tidak konversi bagaimana kuliah rencana sesuai",
+                "mata magang ada mahasiswa apa informasi laku sistem konversi kuliah program sesuai dapat"
+            ],
+            "responses": [
+                "Untuk mahasiswa yang program mangangnya tidak sesuai dengan mata kuliah yang ada di Sistem Informasi, maka mahasiswa hanya bisa mengkonversi dengan mata kuliah pengayaan. Namun mahasiswa dapat berdiskusi dengan dosen wali atau tim konversi untuk bernegosiasi agar dapat dikonversi"
+            ]
+        },
+        {
+            "tag": "74",
+            "patterns": [
+                "mata pilih konversi kuliah sendiri",
+                "mata pilih konversi kuliah sendiri dapat",
+                "mata akan milik mahasiswa bebas pilih konversi kuliah sendiri",
+                "mata milik mahasiswa fleksibilitas pilih kuliah telah ubah",
+                "mata akan mahasiswa bebas ambil pilih kuliah beri",
+                "mata mahasiswa untuk aturan bagaimana kuliah pemilihan"
+            ],
+            "responses": [
+                "Mahasiswa dapat menentukan mata kuliah yang ingin dikonversi terlebih dahulu. Namun untuk mendapatkan persetujuan, mahasiswa harus berdiskusi dengan dosen konversi untuk menentukan apakah mata kuliah tersebut relevan dengan program konversi yang dijalani oleh mahasiswa"
+            ]
+        },
+        {
+            "tag": "75",
+            "patterns": [
+                "pilih mata konversi kuliah",
+                "bisa mata apakah kuliah pilihan dikonversi",
+                "lain mata apakah kuliah dengan  pilihan dikonversi dapat",
+                "mata apakah ada untuk tertentu pilihan atau mengkonversi kuliah prosedur batasan",
+                "mata untuk pilihan mengkonversi bagaimana kuliah umum prosedur",
+                "harus khusus mata apakah ada untuk  pilihan atau mengkonversi waktu kuliah dipenuhi syarat batasan"
+            ],
+            "responses": [
+                "Mata kuliah pilihan dapat dikonversi selama program konversi tersebut sesuai dengan mata kuliah yang ingin dikonversi"
+            ]
+        },
+        {
+            "tag": "76",
+            "patterns": [
+                "mata mulai magang kapan konversi kuliah",
+                "mata kapan laku konversi kuliah",
+                "mata tahun ada laku konversi periode kuliah satu tentu",
+                "permohonan mengajukan mata untuk atau tenggat waktu konversi bagaimana kuliah jadwal",
+                "aju mata studi ada lama waktu konversi batas kuliah program",
+                "harus aju khusus mata ada penuh konversi kuliah syarat"
+            ],
+            "responses": [
+                "Konversi mata kuliah dilakukan sebelum masa perkuliahan dimulai. Dimana untuk menentukan mata kuliah apa saja yang dapat dikonversi oleh mahasiswa, ia harus bertemu dengan dosen koversi untuk menentukan mata kuliah yang sesuai dengan konversi yang dilakukan"
+            ]
+        },
+        {
+            "tag": "77",
+            "patterns": [
+                "bisa magang apa mandiri konversi",
+                "mandiri bisa konversi magang",
+                "khusus kecuali magang ada atur hal laku mandiri konversi",
+                "bisa mata magang jika mandiri butuh konversi jadi kuliah",
+                "beda magang milik hal mbkm mandiri konversi status banding",
+                "harus magang ada penuh mandiri konversi syarat tentu"
+            ],
+            "responses": [
+                "Magang mandiri dapat dikonversi selama magang tersebut memiliki durasi 1 semester dengan CPL yang jelas dan terdokumentasi."
+            ]
+        },
+        {
+            "tag": "78",
+            "patterns": [
+                "cara mata mengambil  bagaimana kuliah dikonversi",
+                "harus ikut mata langkahlangkah apa ambil konversi kuliah telah",
+                "mata sudah konversi bagaimana kuliah daftar prosedur",
+                "telah mata sebelumnya dari mahasiswa untuk saya  konversi bagaimana kuliah mendaftar dapat",
+                "mata mahasiswa mengambil  bagaimana kuliah dikonversi dapat"
+            ],
+            "responses": [
+                "Mahasiswa tidak dapat mengambil mata kuliah konversi secara langsung. Untuk dapat mengambil mata kuliah, mahasiswa harus menghubungi dosen wali untuk diambilkan oleh dosen wali"
+            ]
+        },
+        {
+            "tag": "79",
+            "patterns": [
+                "nilai keluar mata hasil kapan konversi kuliah",
+                "nilai berapa mata hasil perlu lama olah waktu konversi kuliah",
+                "nilai mata hasil ada tenggat waktu konversi kuliah umum tentu",
+                "nilai keluar kapan matkul konversi",
+                "harus nilai apakah mahasiswa untuk dilakukan  konversi mendapatkan prosedur"
+            ],
+            "responses": [
+                "Nilai mata kuliah konversi akan keluar setelah mahasiswa telah menyelesaikan program magang dan telah melakukan presentasi dengan dosen wali"
+            ]
+        },
+        {
+            "tag": "80",
+            "patterns": [
+                "nilai mata kuliah dari menentukan  bagaimana cara dikonversi",
+                "nilai mata kuliah dosen konversi bagaimana cara tentu",
+                "nilai guna mata apa dosen metode kriteria konversi kuliah",
+                "evaluasi mata mahasiswa kerja dosen konversi bagaimana kuliah telah",
+                "pada mata apakah penilaian faktorfaktor proyek atau konversi kuliah berkontribusi seperti ujian tugas",
+                "pada mata apakah presentasi berdampak mahasiswa dalam penilaian konversi kuliah kualitas"
+            ],
+            "responses": [
+                "Nilai mata kuliah mahasiswa ditentukan bedasarkan rubrik penilaian yang terdiri dari presentasi magang dengan dosen wali dan jumlah CPL yang telah dicapai selama mahasiswa tersebut melakukan magang"
+            ]
+        },
+        {
+            "tag": "81",
+            "patterns": [
+                "berapa mata pengayaan  kuliah dikonversi dapat jumlah",
+                "mata ada mahasiswa kaya batas konversi kuliah dapat jumlah",
+                "berapa mata kuliah mengetahui pengayaan  banyak bagaimana cara dikonversi dapat",
+                "mata mahasiswa pengayaan semua  bisakah ambil mengkonversi mereka kuliah",
+                "berapa mata mahasiswa pengayaan maksimum  kuliah dikonversi oleh dapat jumlah"
+            ],
+            "responses": [
+                "Jumlah mata kuliah pengayaan yang dapat dikonversi oleh mahasiswa adalah 2 mata kuliah / 6 SKS"
+            ]
+        },
+        {
+            "tag": "82",
+            "patterns": [
+                "wali perlu mahasiswa setelah dilakukan bertemu apa  dengan proses dosen oleh",
+                "harus mendiskusikan wali langkahlangkah mahasiswa diambil setelah apa  dengan dosen masalah oleh",
+                "wali mahasiswa bicara monitor kembang dosen sendiri dapat",
+                "harus langkah wali hasil menindaklanjuti ada mahasiswa temu ambil dosen tentu",
+                "wali mahasiswa temu dosen bagaimana"
+            ],
+            "responses": [
+                "Setelah mahasiswa telah mengisi FRS yang dimasukkan oleh dosen wali, mahasiswa harus memastikan bahwa mata kuliah yang ada di FRS harus sesuai dengan mata kuliah yang ada di surat FX01. Jika tidak sesuai maka akan berakibat pada tidak bisa diproses konversi alih kredit."
+            ]
+        },
+        {
+            "tag": "83",
+            "patterns": [
+                "magang perlu berakhir mahasiswa setelah dilakukan  oleh tahap",
+                "magang perlu berakhir mahasiswa setelah dilakukan apa  proses oleh",
+                "harus nilai mata magang mahasiswa setelah untuk diikuti  apa konversi mendapatkan kuliah menyelesaikan program oleh prosedur",
+                "harus nilai mata dikeluarkan kuliah mahasiswa dilakukan apa  konversi sebelum oleh dapat",
+                "harus tindakan langkah magang mahasiswa diambil setelah apa  atau menyelesaikan program oleh",
+                "hasil magang mahasiswa respons bagaimana akhir telah"
+            ],
+            "responses": [
+                "Setelah magang berakhir, mahasiswa harus mengisi form intip.in/dsialihkredit. Lalu mahasiswa akan dijadwalkan untuk melakukan presentasi magang dengan dosen wali. Setelah itu mahasiswa perlu menunggu dan memastikkan hingga nilai mata kuliah konversi keluar di FRS."
+            ]
+        },
+        {
+            "tag": "84",
+            "patterns": [
+                "magang semester ambil konversi minimal dapat",
+                "magang ada informasi ambil sistem konversi program minimal dapat semester",
+                "harus dapat magang ada mahasiswa informasi ambil penuh sistem konversi program minimal syarat semester",
+                "kena jurus ikut magang perlu informasi sistem penuh konversi bagaimana program semester syarat tentu",
+                "jurus di bisa magang studi masa mahasiswa informasi ambil sistem konversi program awal dapat",
+                "mencapai khusus ingin 6 apakah magang ada mahasiswa untuk mengambil  pengecualian sebelum dikonversi semester dapat"
+            ],
+            "responses": [
+                "Mahasiswa dapat mengambil magang yang dapat dikonversi adalah minimal semester 6. Jika mahasiswa mengambil magang dibawah semester 6, maka tidak dapat dikonversi."
+            ]
+        },
+        {
+            "tag": "85",
+            "patterns": [
+                "mata laboratorium pilih konversi kuliah syarat",
+                "mata laboratorium pilih konversi kuliah syarat",
+                "harus mata laboratorium mahasiswa apa penuh pilih konversi kuliah dapat",
+                "harus mata laboratorium ada pilih konversi kuliah syarat tentu patuh",
+                "aju mata laboratorium laku biasa pilih proses konversi bagaimana kuliah",
+                "lain beda mata magang laboratorium pilih proses konversi kuliah"
+            ],
+            "responses": [
+                "Untuk magang yang dikonversi ke mata kuliah pilihan laboratorium yang dituju untuk Tugas Akhir, terdapat syarat tambahan yakni mahasiswa perlu meminta izin kepada calon dosen pembimbing Tugas Akhir di laboratorim yang bersangkutan. Mahasiswa harus memiliki bukti izin kepada dosen pembimbing agar mata kuliah pilihan dapat dikonversi."
+            ]
+        },
+        {
+            "tag": "86",
+            "patterns": [
+                "ta pra konversi",
+                "harus prata apakah ada untuk tertentu  atau mengkonversi persyaratan dipenuhi batasan",
+                "mata apakah mahasiswa diperbolehkan mengkonversi kuliah prata",
+                "harus khusus ingin mata apakah magang ada mahasiswa jika  mengkonversi mereka kuliah persyaratan dipenuhi oleh selama prata",
+                "harus melakukan mata magang tanpa bab 13 mahasiswa proposal setelah mengerjakan dan dapatkah sidang mengkonversi kuliah prata"
+            ],
+            "responses": [
+                "Mahasiswa dapat mengkonversi mata kuliah Pra-TA. Namun selama magang, mahasiswa juga harus mengerjakan bab 1-3 dan juga harus melakukan sidang proposal di Akhir Semester"
+            ]
+        },
+        {
+            "tag": "87",
+            "patterns": [
+                "magang bulan ambil konversi minimal dapat",
+                "harus berapa mata magang mahasiswa bulan laku konversi kuliah minimal",
+                "jalan harus berapa mata durasi magang mahasiswa lama penuh konversi kuliah minimal syarat",
+                "jalan 6 kecuali magang ada mahasiswa mungkin kurang bulan tentu",
+                "bisa mata magang lama mahasiswa beberapa bulan ambil konversi kuliah bagi",
+                "jalan 6 mata sks magang lama mahasiswa ke bulan tambah konversi kuliah telah syarat"
+            ],
+            "responses": [
+                "Mahasiswa wajib menjalani magang minimal 6 bulan untuk magang mandiri dan MBKM. Jika mahasiswa magang dibawah 6 bulan, maka mata kuliah tidak dapat dikonversi ke SKS."
+            ]
+        },
+        {
+            "tag": "88",
+            "patterns": [
+                "mata untuk pengisian frs batas konversi kuliah",
+                "mata kapan untuk pengisian frs batas konversi kuliah",
+                "mata untuk pengisian frs apa waktu batas konversi kuliah",
+                "harus ingin mata kuliah mahasiswa kapan jika frs mengkonversi mereka mengisi",
+                "harus ingin mengubah mahasiswa jika dilakukan frs apa  setelah mereka mengisi oleh awalnya",
+                "mata untuk pengisian frs apa tenggat waktu konversi kuliah terakhir"
+            ],
+            "responses": [
+                "Batas pengisian FRS untuk konversi adalah minggu ke 3 dimana minggu terakhir dapat melakukan perubahan FRS. Untuk pengisian FRS, mahasiswa dapat menghubungi dosen wali"
+            ]
+        },
+        {
+            "tag": "89",
+            "patterns": [
+                "beda antar sks magang",
+                "internasional beda sks magang ada mbkm mandiri konversi program",
+                "internasional beda ikut sks magang mahasiswa mbkm mandiri proses konversi bagaimana program",
+                "internasional ikut sks magang ada mahasiswa mbkm mandiri batas konversi program banding dapat jumlah",
+                "internasional ikut sks magang mahasiswa lebih banyak mandiri konversi program dapat",
+                "nilai internasional beda sks magang ada mbkm mandiri kriteria konversi"
+            ],
+            "responses": [
+                "Tentu ada perbedaan jumlah SKS antar magang. Perbedaan tersebut dilihat dari skalabitas magang yang diambil oleh mahasiswa. Jika magang yang diambil oleh mahasiswa memiliki koneksi dengan Sistem Informasi (contohnya magang MBKM dan magang Internasional), maka kemungkinan besar jumlah SKS yang dapat dikonversi oleh mahasiswa menjadi lebih banyak dengan maksimal 20 SKS. Namun jika magang tersebut tidak memiliki relasi dengan sistem informasi (contohnya magang mandiri), maka mahasiswa harus melakukan negosiasi dengan tim konversi agar bisa mendapatkan SKS konversi yang besar."
+            ]
+        },
+        {
+            "tag": "90",
+            "patterns": [
+                "kredit magang alih program syarat",
+                "kredit hanya magang semua laku alih program syarat tentu",
+                "kredit magang syarat semua informasi alih laku sistem its program umum",
+                "kredit beda magang ada alih program syarat",
+                "kredit internasional beda magang milik lokal alih program syarat",
+                "kredit magang ada hal penuh alih batas jenis syarat tentu"
+            ],
+            "responses": [
+                "Persyaratan alih kredit disesuaikan dengan program magang yang diambil oleh mahasiwa. Contohnya dimana syarat antara magang MBKM dengan magang internasional tentunya berbeda. Perbedaan tersebut tentunya disesuaikan dengan jenis program magang yang diambil oleh mahasiwa dan tentunya setiap program magang memiliki peraturan yang berbeda-beda."
+            ]
+        },
+        {
+            "tag": "91",
+            "patterns": [
+                "manfaat mata konversi kuliah",
+                "mata manfaat studi mahasiswa apa konversi kuliah rencana",
+                "mata timbang alas mahasiswa apa konversi kuliah dorong",
+                "mata panjang manfaat studi jangka konversi kuliah rencana jelas dapat",
+                "mata mahasiswa akademik pengaruh konversi bagaimana kuliah kembang karir",
+                "khusus mata ada mahasiswa positif konversi kuliah oleh dapat tentu dampak"
+            ],
+            "responses": [
+                "Mengkonversi mata kuliah dalam rencana studi mahasiswa memiliki beberapa manfaat, antara lain Dengan mengambil mata kuliah yang lebih relevan atau berhubungan dengan bidang studi atau minat mereka, mahasiswa dapat mengembangkan keterampilan tambahan dan pengetahuan yang mungkin berguna dalam karier atau proyek masa depan mereka. Selain itu konversi mata kuliah dapat menghemat waktu  mahasiswa dengan menghindari pengambilan mata kuliah yang tidak diperlukan lagi."
+            ]
+        },
+        {
+            "tag": "92",
+            "patterns": [
+                "informasi mata konversi kuliah",
+                "mata mana mahasiswa lanjut lebih sistem cari konversi kuliah informasi dapat",
+                "mata ada sedia sistem sumber konversi kuliah informasi tentu",
+                "khusus mata website apakah tentang memiliki bagian dikonversi  sistem berisi kuliah informasi dapat",
+                "pandu mata mahasiswa tunjuk sistem konversi bagaimana kuliah informasi akses",
+                "khusus hubung mata kontak ada mahasiswa lanjut lebih departemen konversi kuliah informasi dapat"
+            ],
+            "responses": [
+                "Untuk mendapatkan informasi terkait magang, mahasiswa dapat melihatnya melalui instagram dari Himpunan Sistem Informasi yakni hmsi_its"
+            ]
+        },
+        {
+            "tag": "93",
+            "patterns": [
+                "mata berbeda  kuliah dikonversi",
+                "mata magang tiap konversi kuliah berbedabeda dapat",
+                "mata magang studi tiap mahasiswa pengaruh proses konversi bagaimana kuliah rencana berbedabeda",
+                "ikut mata magang mahasiswa gantung konversi kuliah jenis berbedabeda syarat",
+                "beda mata ikut magang mahasiswa konversi kuliah berbedabeda kali dapat",
+                "jalan beda mata magang lembaga ada mahasiswa tempat gantung usaha konversi kuliah dapat"
+            ],
+            "responses": [
+                "Tentu jenis mata kuliah yang diambil oleh mahasiwa berbeda-beda karena disesuaikan dengan jenis magang yang diambil oleh mahasiwa. Contohnya adalah program mangang internasional dimana mata kuliah yang ingin dikonversi harus disesuaikan dengan mata kuliah di universitas luar. Selain itu contoh lainnya adalah magang MBKM dimana tidak semua mata kuliah bisa dikonversi karena harus disesuaikan dengan perusahaan tempat mahasiswa akan menjalani magang. "
+            ]
+        },
+        {
+            "tag": "94",
+            "patterns": [
+                "ipk nilai mangang laku minimal",
+                "harus nilai minimum ambang guna ada frs penuh sistem konversi syarat",
+                "harus nilai guna ada akademik frs penuh prestasi sistem indeks konversi minimal syarat",
+                "nilai ambang guna tahu mahasiswa frs penuh konversi mereka bagaimana syarat",
+                "nilai ambang mata mahasiswa tidak frs penuh sistem izin konversi kuliah syarat",
+                "guna mahasiswa frs verifikasi penuh sistem konversi mereka bagaimana minimal syarat"
+            ],
+            "responses": [
+                "Di Departemen Sistem Informasi, tidak ada minimal IPK dalam mengambil program magang. Semua mahasiswa berhak untuk mendapatkan kesempatan untuk melakukan magang sesuai dengan minat mereka. Namun magang yang dapat dikonversi baru dapat diperkenankan oleh mahasiswa minimal semester 6 dan telah lulus semua mata kuliah tahap persiapan."
+            ]
+        },
+        {
+            "tag": "95",
+            "patterns": [
+                "bisa mata  kuliah dikonversi batasan",
+                "mata ada kait jenis konversi batas kuliah satu semester dapat",
+                "mata ada batas konversi kuliah satu semester dapat jumlah",
+                "mata mahasiswa dalam semua pilih konversi kuliah satu semester dapat",
+                "mata apakah pembatasan kuliah satu mahasiswa mengetahui ada dalam  bagaimana cara jenis dikonversi semester dapat",
+                "mata apakah pembatasan perbedaan ada dalam dan  antara pilihan wajib kuliah jenis dikonversi dapat"
+            ],
+            "responses": [
+                "Untuk magang, semua mata kuliah pengayaan dapat dilakukan konversi SKS. Untuk mata kuliah wajib, mahasiswa tidak dapat melakukan konversi dengan program magang dan harus mengambil mata kuliah wajib secara langsung di kelas. Dan untuk mata kuliah pilihan laboratorium, terdapat syarat tambahan dimana mahasiswa karus berdikusi dengan kaprodi laboratorium tersebut untuk mendapat persetujuan konversi."
+            ]
+        },
+        {
+            "tag": "96",
+            "patterns": [
+                "tahu matkul tidak konversi cara",
+                "mata tahu negeri mahasiswa ambil konversi mereka kuliah bagaimana luar",
+                "tahu mata luar mahasiswa sedia ambil universitas sistem its mereka bagaimana kuliah informasi sesuai",
+                "mata luar mahasiswa periksa informasi ambil sistem universitas its mereka bagaimana kuliah daftar cocok",
+                "khusus mata alat dalam sedia ada banding universitas sistem its kuliah luar prosedur",
+                "pandu mata mahasiswa laku universitas pedoman its bagaimana kuliah luar banding dapat"
+            ],
+            "responses": [
+                "Untuk mengetahui mata kuliah yang dapat dikonversi, pertama-tama mahasiswa harus menyesuaikan secara pribadi untuk menentukan mata kuliah yang relevan dengan perusahan/institusi tempat mahasiswa akan melakukan magang. Setelah mahasiswa menentukan mata kuliah tersebut, mahasiswa harus berdiskusi dengan tim konversi untuk mendapatkan persetujuan tersebut. Jika disetujui, maka mahasiswa dapat melakukan konversi sesuai dengan pilihan mata kuliahnya. Namun jika tidak disetujui, maka mahasiswa dan tim konversi akan berdiskusi untuk menentukan mata kuliah yang sesuai dengan perusahaan/institusi tempat mahasiswa akan melakukan magang."
+            ]
+        },
+        {
+            "tag": "97",
+            "patterns": [
+                "fx01 surat",
+                "surat mahasiswa apa konversi bagaimana cara oleh fx01",
+                "konteks mata maksud surat apa konversi kuliah fx01",
+                "harus khusus ikut surat ada mahasiswa fx01 oleh prosedur",
+                "surat apa biasa masuk informasi fx01",
+                "wali surat akademik dosen departemen fx01 beri"
+            ],
+            "responses": [
+                "Surat FX-01 adalah form yang berisikan mengenai biodata mahasiswa, institusi mitra, dan persetujuan transfer SKS. Surat ini dibutuhkan dan harus diisi oleh mahasiswa sebelum melakukan magang agar Departemen dapat mengetahui jenis program magang yang akan diambil oleh mahasiswa. Selain itu surat FX-01 berisikan persetujuan transfer antara mata kuliah institusi mitra dengan mata kuliah di Sistem Informasi ITS. Dengan demikian mahasiswa dan departemen dapat mengetahui total SKS yang dikonversi oleh mahasiswa. Selain itu surat FX-01 harus mendapatkan persetujuan dari tim konversi dan dosen wali."
+            ]
+        },
+        {
+            "tag": "98",
+            "patterns": [
+                "pengaruh konversi sks",
+                "mata sks mahasiswa pengaruh orang konversi bagaimana kuliah oleh jumlah",
+                "mata sks mahasiswa total pengaruh orang proses konversi bagaimana kuliah oleh jumlah",
+                "harus menambah mata apakah sks mengurangi seorang mahasiswa ditempuh  atau konversi kuliah oleh dapat jumlah",
+                "demikian harus mata sks menggantikan mengurangi mahasiswa total untuk dan diambil dapatkah pilihan dengan mengkonversi  wajib kuliah",
+                "ipk nilai sks milik ratarata mahasiswa akademik orang konversi dampak"
+            ],
+            "responses": [
+                "Konversi mata kuliah tentunya akan mempengaruhi jumlah SKS yang akan diperoleh oleh mahasiswa. Selain itu banyaknya jumlah SKS yang diperoleh oleh mahasiswa disesuaikan dengan jenis magang dari institut/perusahaan dimana mahasiswa akan melakukan magang. Dan konversi SKS akan mempengaruhi IPK mahasiswa dimana jika mahasiswa dapat menjalankan program magang dan presentasi dengan baik maka mahasiswa akan mendapatkan IPK yang tinggi. Namun jika mahasiswa tidak maksimal dalam menjalani magang dan presentasi ke dosen wali maka akan sangat berpengaruh terhadap IPK mahasiswa."
+            ]
+        },
+        {
+            "tag": "99",
+            "patterns": [
+                "manfaat dosen wali diskusi",
+                "situasi wali mata magang manfaat mana apa dosen konversi diskus kuliah program sesuai tim",
+                "wali negosiasi mata milik mahasiswa kait hak dosen konversi diskus kuliah tim",
+                "ingin wali mata magang manfaat bicara tidak apa dosen utama konversi kuliah program sesuai tim",
+                "solusi rencana wali magang studi tidak temu dosen konversi diskus bagaimana program cocok bantu tim",
+                "wali mata magang saran atas alternatif dosen bagaimana kuliah program dapat beri ketidaksesuaian"
+            ],
+            "responses": [
+                "Berdiskusi dengan dosen wali dan tim konversi dapat membantu mahasiswa memahami secara rinci prosedur yang harus diikuti untuk melakukan konversi mata kuliah. Ini dapat membantu mencegah kesalahan atau kebingungan selama proses. Selain itu dosen wali dan tim konversi dapat memberikan panduan tentang bagaimana memilih mata kuliah yang tepat untuk dikonversi berdasarkan tujuan akademik dan karier mahasiswa. Mereka dapat membantu dalam menyusun rencana studi yang optimal."
+            ]
+        },
+        {
+            "tag": "100",
+            "patterns": [
+                "aju khusus mata alas konversi kuliah",
+                "harus khusus memilih mata apakah manfaat terdapat untuk alasan tertentu  atau diajukan konversi kuliah",
+                "harus khusus memilih mata apakah kuliah dipertimbangkan ada untuk ketika  atau kriteria konversi pertimbangan",
+                "mendukung mata kuliah mahasiswa tujuan untuk akademik bahwa atau memastikan karir konversi bagaimana pilihan mereka dapat",
+                "harus khusus mata timbang ada pilih kriteria konversi kuliah",
+                "tuju mata dukung mahasiswa akademik pilih konversi bagaimana kuliah pasti karir"
+            ],
+            "responses": [
+                "Memilih mata kuliah yang ingin dikonversi harus disesuaikan dengan program magang yang akan diambil oleh mahasiswa. Pemilihan mata kuliah ini tentunya harus disesuaikan dengan institusi/perusahaan tempat mahasiswa akan melakukan magang. Contohnya adalah magang internasional dimana mata kuliah yang ingin dikonversi oleh mahasiswa harus sesuai dengan mata kuliah yang tersedia di universitas luar. Selain itu untuk magang MBKM dan mandiri harus disesuaikan dengan jenis perusahaan/institusi tempat mahasiswa akan melakukan magang."
+            ]
+        },
+        {
+            "tag": "101",
+            "patterns": [
+                "tuju mata konversi kuliah",
+                "tuju mata pihak perlu pilih konversi kuliah tentu",
+                "tuju wali mata perlu mahasiswa akademik nasehat pilih dosen izin konversi kuliah",
+                "harus khusus mata tanpa mahasiswa ada tertentu dapatkah pilihan persetujuan mengkonversi atau  diikuti kuliah prosedur",
+                "harus khusus bisa mata apakah mahasiswa bebas penuh pilih kriteria konversi kuliah",
+                "minta ajar mata akan mahasiswa dosen izin konversi kuliah dapat"
+            ],
+            "responses": [
+                "Untuk konversi mata kuliah, mahasiswa harus mendapatkan persetujuan dari tim konversi agar Departemen dapat mengetahui jenis program magang yang diambil oleh mahasiswa sesuai dengan mata kuliah yang tersedia di Sistem Informasi ITS. Selain itu, dosen wali juga harus mengetahui bahwa anak walinya akan melakukan magang dan pengambilan mata kuliah konversi perlu diambilkan oleh dosen wali"
+            ]
+        },
+        {
+            "tag": "102",
+            "patterns": [
+                "ganjil beda genap konversi semester",
+                "ganjil beda mata genap proses konversi kuliah semester",
+                "ganjil beda mata ada genap proses konversi kuliah semester",
+                "ganjil beda mata bisa ada lama atur laku genap konversi kuliah semester jelas",
+                "ganjil beda mata frs genap konversi bagaimana kuliah semester isi prosedur",
+                "dua mata jadwal sebut pengaruh akademik kalender universitas proses konversi kuliah semester ubah"
+            ],
+            "responses": [
+                "Tidak ada perbedaan syarat antara konversi di semester ganjil dan genap. Namun yang terpenting adalah mahasiswa harus menjalankan proses sebelum magang dimana mahasiswa harus menyesuaikan antara periode di semester ganjil dan genap"
+            ]
+        },
+        {
+            "tag": "103",
+            "patterns": [
+                "beda mata pilih konversi wajib kuliah",
+                "beda mata sks pilih konversi wajib kuliah",
+                "beda mata ada atur pilih konversi wajib kuliah syarat",
+                "sama beda mata ada mahasiswa pilih konversi wajib kuliah prosedur dapat",
+                "dasar mata ada hal pilih batas konversi wajib kuliah jenis itu dapat",
+                "kredit beda mata magang ada mahasiswa alih pilih banding wajib kuliah program syarat"
+            ],
+            "responses": [
+                "Terdapat perbedaan konversi antara mata kuliah wajib dan mata kuliah pilihan. Mahasiswa tidak diperkenankan untuk mengkonversi mata kuliah wajib dengan program magang. Selain itu untuk mata kuliah pilihan laboratorium, mahasiswa juga harus menyesuaikan dengan jenis program/jabatan yang diambil di instusi/perusahaan tempat mahasiswa akan melakukan magang. Namun untuk mata kuliah pengayaan, mahasiswa bebas mengambil mata kuliah yang tersedia di ITS."
+            ]
+        },
+        {
+            "tag": "104",
+            "patterns": [
+                "kelas waktu konversi daftar habis",
+                "mata kelas laku tenggat waktu konversi kuliah daftar dapat",
+                "mata opsi masih kelas tenggat waktu konversi akhir kuliah daftar",
+                "beda mata kelas tenggat waktu konversi bagaimana kuliah daftar jadwal prosedur",
+                "mata milik mahasiswa kelas putus tenggat waktu konversi mereka kuliah akhir daftar tentu",
+                "mata opsi masih kelas tenggat waktu konversi akhir kuliah daftar",
+                "mata kelas pengaruh tenggat waktu konversi proses kuliah bagaimana daftar"
+            ],
+            "responses": [
+                "Untuk konversi mata kuliah, Departemen Sistem Informasi memberikan tenggat waktu hingga 3 minggu sejak perkuliahan dimulai. Namun mahasiswa diharapkan untuk segera melakukan pertemuan dengan tim konversi dan dosen wali untuk mendapatkan persetujuan terkait konversi mata kuliah."
+            ]
+        },
+        {
+            "tag": "105",
+            "patterns": [
+                "fx01 kadaluarsa",
+                "apakah tanggal surat berlaku masa memiliki tertentu atau fx01 kadaluarsa",
+                "harus surat milik tanggal mahasiswa fx01 kedaluwarsa perhati",
+                "berapa tahu surat mahasiswa masa lama laku bagaimana fx01",
+                "beda apakah surat masa ada semua laku gantung kasus fx01 dapat tetap",
+                "bisa guna mata surat apakah mahasiswa saat untuk waktu konversi batas kuliah fx01 tentu"
+            ],
+            "responses": [
+                "Surat FX-01 adalah pegangan bagi mahasiswa untuk mengetahui jumlah transfer SKS yang akan dikonversi. Maka tidak terdapat kadaluarsa dalam surat tersebut. Namun, surat FX-01 hanya berlaku untuk 1 program magang saja dalam 1 semester. Sehingga jika mahasiswa ingin melakukan magang kembali, maka mahasiswa harus mengisi dan mengajukan surat FX-01 kembali."
+            ]
+        },
+        {
+            "tag": "106",
+            "patterns": [
+                "beda mata ambil konversi kuliah semester",
+                "beda mata ambil konversi asli kuliah semester dapat",
+                "tuju khusus beda mata perlu ambil konversi kuliah semester",
+                "mata berbeda dari untuk  biasa konversi bagaimana kuliah semester prosedur",
+                "hanya mata dari saya selanjutnya bisakah atau mengkonversi kuliah semester sebelumnya",
+                "progres mata pengambilan berbeda akademik saya menjelaskan dapatkah  anda bagaimana kuliah memengaruhi semester dapat"
+            ],
+            "responses": [
+                "Untuk mata kuliah pilihan laboratorium, Mahasiswa diperkenankan untuk mengambil mata kuliah yang berbeda semester asalkan mata kuliah yang ingin dikonversi merupakan mata kuliah yang bersal dari departemen sistem informasi. Untuk mata kuliah pengayaan mahasiswa bebas mengambil mata kuliah dengan berbagai semester selama mata kuliah tersebut dibuka di ITS dan tersedia di ITS. "
+            ]
+        },
+        {
+            "tag": "107",
+            "patterns": [
+                "wali matkul ambil dosen konversi cara pasti",
+                "mata konversi bagaimana kuliah telah daftar jadwal pasti dapat",
+                "ingin mata mahasiswa ambil mereka konversi kuliah bagaimana pasti",
+                "mata verifikasi konversi bagaimana kuliah telah daftar jadwal dapat",
+                "harus khusus ikut mata langkahlangkah ada periksa konversi kuliah telah jadwal",
+                "online bisa tahu mata kuliah lalu akademik sudah periksa konversi portal cara jadwal"
+            ],
+            "responses": [
+                "Untuk memastikan bahwa mata kuliah konversi telah diambilkan oleh dosen wali, maka mahasiswa harus membuka akademik.its.ac.id dan memilih Formulir Rencana Studi. Jika mata kuliah konversi telah diambilkan oleh dosen wali, maka terdapat list mata kuliah, jumlah SKS, dan total SKS. Selain itu pada kolom alih kredit, untuk mata kuliah yang dikonversi secara otomatis akan dicentang. Jika belum terdapat list mata kuliah konversi, maka mahasiswa dapat menghubungi dosen wali untuk melakukan konfirmasi. \n"
+            ]
+        },
+        {
+            "tag": "108",
+            "patterns": [
+                "nilai tahu matkul konversi cara",
+                "nilai tahu mata kuliah hasil kapan konversi bagaimana cara umum",
+                "nilai mata mahasiswa periksa konversi bagaimana kuliah umum",
+                "nilai pandu dapat mata kuliah hasil konversi cara telah umum akses beri",
+                "nilai langkah mata login perlu hasil akses mahasiswa akademik laku portal konversi kuliah tentu",
+                "nilai mata hasil atur konversi kuliah prosedur umum tentu dapat bijak"
+            ],
+            "responses": [
+                "Untuk mengetahui bahwa nilai mata kuliah telah dimasukkan oleh Departemen, maka mahasiswa harus rutin mengecek di SIAKAD. Untuk mengecek di SIAKAD, maka mahasiswa harus membuka akademik.its.ac.id lalu pilih Formulir Rencana Studi. Jika nilai telah dimasukkan, maka nilai di list mata kuliah tersebut akan ada sesuai dengan capaian mahasiswa. Namun jika nilai mata kuliah konversi belum masuk, maka secara default sistem akan mengisi nilai mata kuliah tersebut dengan C."
+            ]
+        },
+        {
+            "tag": "109",
+            "patterns": [
+                "nilai ikut keluar mahasiswa lanjut konversi semester",
+                "nilai mata tanpa menunggu mahasiswa ke dapatkah melanjutkan berikutnya konversi kuliah semester pengumuman",
+                "nilai mata apakah kuliah mahasiswa untuk dan ke diperbolehkan melanjutkan berikutnya konversi sebelum mendaftar semester pengumuman",
+                "nilai ikut mata mahasiswa atur kait lanjut laku konversi bagaimana kuliah semester umum mampu bijak",
+                "nilai apakah perbedaan belum ada dalam untuk jika mahasiswa pendaftaran berikutnya konversi persyaratan semester pengumuman menerima",
+                "nilai ikut mata keluar mahasiswa walaupun ambil konversi kuliah semester"
+            ],
+            "responses": [
+                "Mahasiswa dapat melanjutkan ke semester berikutnya tanpa menunggu pengumuman nilai mata kuliah konversi. Namun risiko yang diambil oleh mahasiswa adalah nilai mata kuliah konversi secara default akan menjadi C. Untuk itu mahasiswa harus rajin untuk mengupdate konfirmasi kepada Departemen agar nilai mahasiswa dapat keluar sebelum semester berikutnya dimulai."
+            ]
+        },
+        {
+            "tag": "110",
+            "patterns": [
+                "nilai reguler matkul konversi perbedaaan",
+                "nilai beda mata ada reguler konversi kuliah banding",
+                "nilai sama ikut mata reguler proses kriteria konversi kuliah standar",
+                "nilai beda mata apakah dosen metode konversi bagaimana kuliah tentu",
+                "nilai khusus mata ada dalam reguler tidak aspek konversi kuliah",
+                "nilai beda mata harap bisa mahasiswa reguler konversi kuliah jenis uji tugas"
+            ],
+            "responses": [
+                "Tentu terdapat perbedaan dalam penilaian mata kuliah konversi dengan mata kuliah reguler. Dimana pada mata kuliah reguler, indikator penilaian didapatkan dari kehadiran mahasiwa, pengumpulan tugas, hasil project / nilai dari ETS dan EAS, dan indikator lain yang berasal dari kehadiran mahasiswa di kelas. Namun, pada mata kuliah konversi, indikator penilaian didapatkan dari target CPL mahasiswa selama melakukan magang di institusi/perusahaan tempat mahasiswa melakukan magang dan presentasi hasil magang kepada dosen wali."
+            ]
+        }
+    ]
+}
