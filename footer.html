@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #F8F9FB;
+      }
+      td {
+        font-family: 'Poppins', sans-serif;
+        margin: 20px;
+      }
+
+      .table-container {
+        width: 80%;
+        margin: 0 auto;
+        max-height: 65%;
+        overflow-y: auto;
+        background-color: #D8E1E6;
+        padding: 10px;
+    }
+
+      .chat-container {
+        width: 95%;
+        margin: 0 auto;
+        background-color: #D8E1E6;
+        padding: 10px;
+      }
+
+      .message {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .user-message {
+        background-color: #1D5672;
+        font-size: 18px;
+        color: white;
+        text-align: right;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+      .bot-message {
+        background-color: #C9D4C6;
+        color: black;
+        font-size: 18px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        white-space : pre-line;
+      }
+
+      .username-message {
+        text-align: right;
+        color: #1D5672;
+      }
+      
+       .botname-message {
+        color: #566353;
+      }
+
+    .footer-container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #D8E1E6;
+        padding: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+    }
+
+    .footer-container input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .footer-container input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #006FB2;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    </style>
+    <script>
+        function scrollTableToBottom() {
+            var tableContainer = document.querySelector('.table-container');
+            tableContainer.scrollTop = tableContainer.scrollHeight;
+        }
+
+        // Jalankan fungsi scrollTableToBottom saat halaman dimuat
+        document.addEventListener("DOMContentLoaded", function() {
+            scrollTableToBottom();
+        });
+    </script>
+  </head>
+  <body>
+    <div class="footer-container">
+        <form method="POST" action="/send_data" onsubmit="scrollTableToBottom()">
+            <input type="text" name="message" placeholder="Tuliskan Pertanyaan anda seputar Formulir Rencana Studi">
+            <input type="submit" value="Send">
+        </form>
+    </div>
+  </body>
+</html>
